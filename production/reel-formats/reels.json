@@ -1,0 +1,4268 @@
+{
+  "series": "White Nights",
+  "total_parts": 37,
+  "reels": [
+    {
+      "part": 1,
+      "section": "First Night",
+      "lines": "22-75",
+      "title": "The Man Who Talks to Houses",
+      "hook_text": "8 years in Petersburg. Not one friend.",
+      "hook_vo": "It was a wonderful night, such a night as is only possible when we are young, dear reader.",
+      "script": [
+        {
+          "type": "book",
+          "text": "It was a wonderful night, such a night as is only possible when we are young, dear reader."
+        },
+        {
+          "type": "narrator",
+          "text": "But all that day he had been sinking into a strange gloom."
+        },
+        {
+          "type": "book",
+          "text": "It suddenly seemed to me that I was lonely, that every one was forsaking me and going away from me."
+        },
+        {
+          "type": "book",
+          "text": "For though I had been living almost eight years in Petersburg I had hardly an acquaintance."
+        },
+        {
+          "type": "narrator",
+          "text": "Instead, he befriends strangers he has never spoken to, like one old man on the Fontanka."
+        },
+        {
+          "type": "book",
+          "text": "That is how it is that we almost bow to each other, especially when we are both in good humour."
+        },
+        {
+          "type": "narrator",
+          "text": "And he is friends with the buildings."
+        },
+        {
+          "type": "book",
+          "text": "I know the houses too. As I walk along they seem to run forward in the streets to look out at me from every window"
+        },
+        {
+          "type": "narrator",
+          "text": "His favourite was a pretty pink house. Then last week:"
+        },
+        {
+          "type": "book",
+          "text": "I heard a plaintive, “They are painting me yellow!” The villains! The barbarians!"
+        },
+        {
+          "type": "narrator",
+          "text": "So why, after eight years of this, does the whole city suddenly feel like it is abandoning him?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Slow tilt down from a starry white-night sky onto Petersburg rooftops, cold blue with gold lamps",
+          "graphic": "Hook text; Night 1 of 4 moon tracker appears top-right"
+        },
+        {
+          "sec": 5,
+          "visual": "The Dreamer in top hat and long coat stands alone on the Fontanka embankment while couples drift past",
+          "graphic": "Map pin drops on the Fontanka: 'St Petersburg, 1848'"
+        },
+        {
+          "sec": 6,
+          "visual": "Fast-motion crowds stream past him; he alone stays still in the centre",
+          "graphic": "Counter ticks: '8 years / 0 friends'"
+        },
+        {
+          "sec": 6,
+          "visual": "Close-up of the Dreamer's face, eyes lowered, lamp flicker",
+          "graphic": "Handwritten thought: 'every one is forsaking me'"
+        },
+        {
+          "sec": 6,
+          "visual": "An old man with a gold-knobbed stick whispers to himself, waving his left arm",
+          "graphic": "Name card: 'The Old Man of Fontanka'"
+        },
+        {
+          "sec": 6,
+          "visual": "Both men half-raise hands to hats, then drop them; freeze frame",
+          "graphic": "Handwritten thought: 'we almost bow'"
+        },
+        {
+          "sec": 6,
+          "visual": "Street facades lean forward, windows blinking like eyes",
+          "graphic": "Speech bubbles pop from houses: 'Good-morning!'"
+        },
+        {
+          "sec": 6,
+          "visual": "A small pink brick house glowing warmly, flower boxes in the windows",
+          "graphic": "Name card: 'Best friend: a pink house'"
+        },
+        {
+          "sec": 6,
+          "visual": "Painters' brushes sweep canary yellow over the pink in fast-motion",
+          "graphic": "Shaky caption: 'They are painting me yellow!'"
+        },
+        {
+          "sec": 6,
+          "visual": "The Dreamer recoils, hand on heart, comic horror",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "Empty street, carriages rolling out of frame toward the city edge",
+          "graphic": "Caption: 'Everyone is leaving...'; swipe arrow 'Part 2'"
+        }
+      ],
+      "gold_quote": "They, of course, do not know me, but I know them.",
+      "engagement": "Is there a stranger you see every day but have never spoken to? Describe them.",
+      "cliffhanger": "So why, after eight years of this, does the whole city suddenly feel like it is abandoning him?",
+      "duration_sec": 64
+    },
+    {
+      "part": 2,
+      "section": "First Night",
+      "lines": "76-134",
+      "title": "The City Forgot Him",
+      "hook_text": "POV: the whole city left without you",
+      "hook_vo": "Aie! Why, they are giving me the slip and making off to their summer villas!",
+      "script": [
+        {
+          "type": "book",
+          "text": "Aie! Why, they are giving me the slip and making off to their summer villas!"
+        },
+        {
+          "type": "narrator",
+          "text": "For three days something felt wrong. Then it hit him: it is summer, and all Petersburg is leaving town."
+        },
+        {
+          "type": "narrator",
+          "text": "Wagons piled with sofas. Boats loaded with furniture. In his eyes, a hundred times over."
+        },
+        {
+          "type": "book",
+          "text": "It seemed as though Petersburg threatened to become a wilderness, so that at last I felt ashamed, mortified and sad that I had nowhere to go for the holidays and no reason to go away."
+        },
+        {
+          "type": "book",
+          "text": "I was ready to go away with every waggon, to drive off with every gentleman of respectable appearance who took a cab; but no one — absolutely no one — invited me;"
+        },
+        {
+          "type": "narrator",
+          "text": "So he walked, and walked, until he found himself outside the city gates."
+        },
+        {
+          "type": "book",
+          "text": "It was as though I had suddenly found myself in Italy — so strong was the effect of nature upon a half-sick townsman like me, almost stifling between city walls."
+        },
+        {
+          "type": "narrator",
+          "text": "He heads home happy, late that night. But on the canal, something is waiting for him."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Dreamer jolts upright in his grimy green room, cobwebs on the ceiling",
+          "graphic": "Hook text; Night 1 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "Through his window: crowds with suitcases, cabs pulling away",
+          "graphic": "Handwritten thought: 'they are giving me the slip'"
+        },
+        {
+          "sec": 5,
+          "visual": "Gentlemen tip their hats to each other, all heading one direction",
+          "graphic": "Caption bubble: 'only here for the moment'"
+        },
+        {
+          "sec": 6,
+          "visual": "Fast-motion caravan of wagons stacked with sofas, a cook perched on top",
+          "graphic": "Counter multiplies: 'x10 ... x100'"
+        },
+        {
+          "sec": 6,
+          "visual": "Barges heavy with furniture crawl along the Fontanka",
+          "graphic": "Map pin: 'Fontanka', arrows pointing out to 'the Islands'"
+        },
+        {
+          "sec": 6,
+          "visual": "Wide shot: a Petersburg street emptying to nothing",
+          "graphic": "Caption: 'a wilderness'"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer runs a few steps after a departing wagon, then stops",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "He walks fast past the city barrier, buildings falling behind",
+          "graphic": "Map pin moves outside the city line"
+        },
+        {
+          "sec": 6,
+          "visual": "Meadows and fields bloom in glowing violet daydream tones",
+          "graphic": "Handwritten thought: 'Italy!'"
+        },
+        {
+          "sec": 6,
+          "visual": "He breathes deep, hat in hand, smiling for the first time",
+          "graphic": "Caption: 'a burden falling off my soul'"
+        },
+        {
+          "sec": 6,
+          "visual": "Dusk; he turns back toward the city, canal lamps lighting one by one",
+          "graphic": "Swipe arrow 'Part 3'"
+        }
+      ],
+      "gold_quote": "but no one — absolutely no one — invited me",
+      "engagement": "Have you ever been the one left behind when everyone else went away? What did you do?",
+      "cliffhanger": "He heads home happy, late that night. But on the canal, something is waiting for him.",
+      "duration_sec": 63
+    },
+    {
+      "part": 3,
+      "section": "First Night",
+      "lines": "135-170",
+      "title": "A Girl at the Railing",
+      "hook_text": "10 p.m. A stranger crying alone on the canal.",
+      "hook_vo": "And yet my night was better than my day! This was how it happened.",
+      "script": [
+        {
+          "type": "book",
+          "text": "And yet my night was better than my day! This was how it happened."
+        },
+        {
+          "type": "narrator",
+          "text": "First, a strange thought: spring in Petersburg reminds him of"
+        },
+        {
+          "type": "book",
+          "text": "a frail, consumptive girl, at whom one sometimes looks with compassion"
+        },
+        {
+          "type": "narrator",
+          "text": "who flares into beauty for one instant, then fades."
+        },
+        {
+          "type": "book",
+          "text": "And you grieve that the momentary beauty has faded so soon never to return, that it flashed upon you so treacherously, so vainly, grieve because you had not even time to love her. . . ."
+        },
+        {
+          "type": "narrator",
+          "text": "Remember that image. Now: ten o'clock, the empty canal embankment."
+        },
+        {
+          "type": "book",
+          "text": "I walked along singing, for when I am happy I am always humming to myself like every happy man who has no friend or acquaintance with whom to share his joy."
+        },
+        {
+          "type": "book",
+          "text": "Leaning on the canal railing stood a woman with her elbows on the rail,"
+        },
+        {
+          "type": "book",
+          "text": "She was wearing a very charming yellow hat and a jaunty little black mantle."
+        },
+        {
+          "type": "book",
+          "text": "I heard a muffled sob. Yes! I was not mistaken, the girl was crying,"
+        },
+        {
+          "type": "narrator",
+          "text": "He is terrified of women. She is in tears. Will he dare to speak to her?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Dreamer walking back into the city at dusk, sky turning cold blue",
+          "graphic": "Hook text; Night 1 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "Violet daydream: a pale girl among spring blossoms suddenly glowing with colour",
+          "graphic": "Handwritten thought: 'a frail, consumptive girl'"
+        },
+        {
+          "sec": 6,
+          "visual": "The glow drains from her face; petals fall away",
+          "graphic": "Caption: 'faded so soon'"
+        },
+        {
+          "sec": 6,
+          "visual": "Clock tower strikes ten over the canal",
+          "graphic": "Timer graphic: 22:00"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer strolls the empty embankment humming, hands behind his back",
+          "graphic": "Musical notes float as handwriting"
+        },
+        {
+          "sec": 6,
+          "visual": "Reveal: a woman at the canal railing, elbows on the rail, staring into dark water",
+          "graphic": "Map pin: 'Canal embankment'"
+        },
+        {
+          "sec": 6,
+          "visual": "Slow push on her yellow hat and black mantle under a gold lamp",
+          "graphic": "Name card: '??? (the girl in the yellow hat)'"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer passes her, breath held, heart visibly pounding",
+          "graphic": "Heartbeat pulse ring graphic"
+        },
+        {
+          "sec": 6,
+          "visual": "He stops dead, half-turned",
+          "graphic": "Handwritten thought: 'she must be deeply absorbed'"
+        },
+        {
+          "sec": 6,
+          "visual": "Close-up: a tear falls from her black eyelashes into the canal",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer frozen between stepping forward and fleeing",
+          "graphic": "Swipe arrow 'Part 4'"
+        }
+      ],
+      "gold_quote": "grieve because you had not even time to love her",
+      "engagement": "Would you stop for a crying stranger at night, or keep walking?",
+      "cliffhanger": "He is terrified of women. She is in tears. Will he dare to speak to her?",
+      "duration_sec": 64
+    },
+    {
+      "part": 4,
+      "section": "First Night",
+      "lines": "171-210",
+      "title": "The Knotted Stick",
+      "hook_text": "He almost said 'Madam!' Then fate stepped in.",
+      "hook_vo": "And timid as I was with women, yet this was such a moment!",
+      "script": [
+        {
+          "type": "book",
+          "text": "And timid as I was with women, yet this was such a moment!"
+        },
+        {
+          "type": "book",
+          "text": "I turned, took a step towards her, and should certainly have pronounced the word “Madam!” if I had not known that that exclamation has been uttered a thousand times in every Russian society novel."
+        },
+        {
+          "type": "narrator",
+          "text": "Too late. She slips past him and crosses the street."
+        },
+        {
+          "type": "book",
+          "text": "I dared not cross the street after her. My heart was fluttering like a captured bird."
+        },
+        {
+          "type": "narrator",
+          "text": "A drunk gentleman in evening dress staggers out of the dark, and gives chase."
+        },
+        {
+          "type": "book",
+          "text": "The girl uttered a shriek, and . . . I bless my luck for the excellent knotted stick, which happened on that occasion to be in my right hand."
+        },
+        {
+          "type": "book",
+          "text": "“Give me your arm,” I said to the girl. “And he won’t dare to annoy us further.”"
+        },
+        {
+          "type": "book",
+          "text": "On her black eyelashes there still glistened a tear — from her recent terror or her former grief — I don’t know."
+        },
+        {
+          "type": "narrator",
+          "text": "Her former grief. So what was she crying about before any of this happened?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Dreamer takes one step toward the girl, hand half-raised",
+          "graphic": "Hook text; Night 1 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "His mouth opens; a giant 'Madam!' forms then crumbles",
+          "graphic": "Handwritten word 'Madam!' crossed out"
+        },
+        {
+          "sec": 5,
+          "visual": "She startles, lowers her eyes, slips past him along the embankment",
+          "graphic": "Motion-blur trail in gold"
+        },
+        {
+          "sec": 5,
+          "visual": "She crosses the road; he halts at the kerb",
+          "graphic": "Split screen: her walking away / him frozen"
+        },
+        {
+          "sec": 5,
+          "visual": "A bird flapping inside his chest, stylised",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 5,
+          "visual": "A staggering gentleman in evening dress leans on a wall",
+          "graphic": "Name card: 'The Obtrusive Gentleman'"
+        },
+        {
+          "sec": 6,
+          "visual": "Fast-motion chase: the drunk races after her down the pavement",
+          "graphic": "Speed lines, timer ticking"
+        },
+        {
+          "sec": 6,
+          "visual": "She shrieks; the Dreamer sprints across the street raising a knotted stick",
+          "graphic": "Impact flash on the stick"
+        },
+        {
+          "sec": 6,
+          "visual": "The drunk freezes, backs away muttering",
+          "graphic": "Caption: 'the irresistible argument'"
+        },
+        {
+          "sec": 6,
+          "visual": "She takes the Dreamer's arm, trembling; they walk under gold lamps",
+          "graphic": "Name card hint: 'The girl in the yellow hat'"
+        },
+        {
+          "sec": 6,
+          "visual": "Extreme close-up: a tear on her eyelash and the start of a smile",
+          "graphic": "Swipe arrow 'Part 5'"
+        }
+      ],
+      "gold_quote": "My heart was fluttering like a captured bird.",
+      "engagement": "Hero move or lucky accident? Rate the Dreamer's rescue out of 10.",
+      "cliffhanger": "Her former grief. So what was she crying about before any of this happened?",
+      "duration_sec": 60
+    },
+    {
+      "part": 5,
+      "section": "First Night",
+      "lines": "211-268",
+      "title": "Twenty-Six and Never Spoken to a Woman",
+      "hook_text": "He's 26. He has never talked to a woman.",
+      "hook_vo": "Yes; if my arm trembles, it is because it has never been held by a pretty little hand like yours.",
+      "script": [
+        {
+          "type": "book",
+          "text": "Yes; if my arm trembles, it is because it has never been held by a pretty little hand like yours."
+        },
+        {
+          "type": "narrator",
+          "text": "She noticed he was trembling. So he confesses everything."
+        },
+        {
+          "type": "book",
+          "text": "Here, I am twenty-six and I have never seen any one."
+        },
+        {
+          "type": "book",
+          "text": "I don’t know how to be silent when my heart is speaking."
+        },
+        {
+          "type": "book",
+          "text": "Believe me, not one woman, never, never! No acquaintance of any sort! And I do nothing but dream every day that at last I shall meet some one."
+        },
+        {
+          "type": "book",
+          "text": "Oh, if only you knew how often I have been in love in that way. . . ."
+        },
+        {
+          "type": "narrator",
+          "text": "In love? With whom?"
+        },
+        {
+          "type": "book",
+          "text": "Why, with no one, with an ideal, with the one I dream of in my sleep."
+        },
+        {
+          "type": "narrator",
+          "text": "He has even imagined stopping a lady in the street to beg her for"
+        },
+        {
+          "type": "book",
+          "text": "two or three sisterly words with sympathy"
+        },
+        {
+          "type": "book",
+          "text": "should laugh at me if she likes, encourage me, say two words to me, only two words, even though we never meet again afterwards!"
+        },
+        {
+          "type": "narrator",
+          "text": "She is laughing now. But is she laughing at him, or with him?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Close-up: her small hand on his trembling arm",
+          "graphic": "Hook text; Night 1 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "They walk along the canal, she glances up at him",
+          "graphic": "Name card: 'The Dreamer, 26'"
+        },
+        {
+          "sec": 5,
+          "visual": "His face flushes; he talks fast, gesturing",
+          "graphic": "Counter: 'Women spoken to: 0'"
+        },
+        {
+          "sec": 6,
+          "visual": "Gold light swells around him",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "Violet daydream: a faceless ideal woman made of light beside him",
+          "graphic": "Handwritten thought: 'an ideal'"
+        },
+        {
+          "sec": 6,
+          "visual": "The ideal dissolves into stars",
+          "graphic": "Caption: 'with no one'"
+        },
+        {
+          "sec": 6,
+          "visual": "Violet daydream: the Dreamer bowing to an aristocratic lady on a street",
+          "graphic": "Split screen: his fantasy / the real girl beside him"
+        },
+        {
+          "sec": 6,
+          "visual": "In the fantasy he holds up two fingers",
+          "graphic": "Handwritten: 'only two words'"
+        },
+        {
+          "sec": 6,
+          "visual": "Back to present: she covers her mouth, laughing",
+          "graphic": "Laugh-line sparkles"
+        },
+        {
+          "sec": 6,
+          "visual": "He stops, mid-sentence, uncertain",
+          "graphic": "Handwritten thought: 'you are laughing'"
+        },
+        {
+          "sec": 6,
+          "visual": "She looks at him, still smiling, eyes wet",
+          "graphic": "Swipe arrow 'Part 6'"
+        }
+      ],
+      "gold_quote": "I don’t know how to be silent when my heart is speaking.",
+      "engagement": "Is it romantic or sad to fall in love with someone who only exists in your head?",
+      "cliffhanger": "She is laughing now. But is she laughing at him, or with him?",
+      "duration_sec": 63
+    },
+    {
+      "part": 6,
+      "section": "First Night",
+      "lines": "269-321",
+      "title": "'Surely This Is Not the End?'",
+      "hook_text": "Why did you really come up to me?",
+      "hook_vo": "Don’t be vexed; I am only laughing at your being your own enemy,",
+      "script": [
+        {
+          "type": "book",
+          "text": "Don’t be vexed; I am only laughing at your being your own enemy,"
+        },
+        {
+          "type": "book",
+          "text": "No kind-hearted woman, unless she were stupid or, still more, vexed about something at the moment, could bring herself to send you away without those two words which you ask for so timidly."
+        },
+        {
+          "type": "narrator",
+          "text": "Then she presses him: why did he really approach her?"
+        },
+        {
+          "type": "book",
+          "text": "I fancied you were crying, and I . . . could not bear to hear it . . . it made my heart ache."
+        },
+        {
+          "type": "narrator",
+          "text": "They reach her street. She says goodbye."
+        },
+        {
+          "type": "book",
+          "text": "Surely . . . surely you don’t mean . . . that we shall never see each other again? . . . Surely this is not to be the end?"
+        },
+        {
+          "type": "book",
+          "text": "I tell you what, I can’t help coming here to-morrow, I am a dreamer; I have so little real life that I look upon such moments as this now, as so rare, that I cannot help going over such moments again in my dreams."
+        },
+        {
+          "type": "book",
+          "text": "I shall be dreaming of you all night, a whole week, a whole year."
+        },
+        {
+          "type": "narrator",
+          "text": "He will be back tomorrow at ten. But will she?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "She laughs softly under a gold lamp, hand on his arm",
+          "graphic": "Hook text; Night 1 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "Medium two-shot walking; she speaks kindly, he listens wide-eyed",
+          "graphic": "Caption: 'those two words'"
+        },
+        {
+          "sec": 5,
+          "visual": "She stops and looks at him seriously",
+          "graphic": "Handwritten question: 'Why me?'"
+        },
+        {
+          "sec": 6,
+          "visual": "Amber flashback: the moment he heard her sob at the railing",
+          "graphic": "Warm amber blur border"
+        },
+        {
+          "sec": 6,
+          "visual": "His hand goes to his heart",
+          "graphic": "Handwritten thought: 'it made my heart ache'"
+        },
+        {
+          "sec": 6,
+          "visual": "They arrive at a side-street corner; she lets go of his arm",
+          "graphic": "Map pin: 'Her turning'"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer reaching out, almost pleading",
+          "graphic": "Caption: 'Surely this is not to be the end?'"
+        },
+        {
+          "sec": 6,
+          "visual": "Violet daydream: the same corner repeated across seasons, him returning again and again",
+          "graphic": "Timer: 1 night / 1 week / 1 year"
+        },
+        {
+          "sec": 6,
+          "visual": "Close on his face lit gold",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "She hesitates on the corner, half turned away",
+          "graphic": "Handwritten: 'to-morrow?'"
+        },
+        {
+          "sec": 6,
+          "visual": "Clock face shows 10:00 superimposed on the canal",
+          "graphic": "Swipe arrow 'Part 7'"
+        }
+      ],
+      "gold_quote": "I am a dreamer; I have so little real life",
+      "engagement": "Have you ever replayed one short conversation for a whole week? Be honest.",
+      "cliffhanger": "He will be back tomorrow at ten. But will she?",
+      "duration_sec": 63
+    },
+    {
+      "part": 7,
+      "section": "First Night",
+      "lines": "322-376",
+      "title": "Rule One: Don't Fall in Love",
+      "hook_text": "Her one condition: don't fall in love with me.",
+      "hook_vo": "She agrees to meet him again. But there's a catch.",
+      "script": [
+        {
+          "type": "narrator",
+          "text": "She agrees to meet him again. But there's a catch."
+        },
+        {
+          "type": "book",
+          "text": "perhaps I will come here to-morrow, too, at ten o’clock."
+        },
+        {
+          "type": "book",
+          "text": "The fact is, I have to be here; don’t imagine that I am making an appointment with you;"
+        },
+        {
+          "type": "book",
+          "text": "you won’t fall in love with me. . . . That’s impossible, I assure you. I am ready for friendship; here’s my hand. . . . But you mustn’t fall in love with me, I beg you!"
+        },
+        {
+          "type": "book",
+          "text": "“I swear,” I cried, gripping her hand."
+        },
+        {
+          "type": "book",
+          "text": "Hush, don’t swear, I know you are ready to flare up like gunpowder."
+        },
+        {
+          "type": "narrator",
+          "text": "And she has a secret, something she might confide in him."
+        },
+        {
+          "type": "book",
+          "text": "Wait till to-morrow. Meanwhile, let that be a secret. So much the better for you; it will give it a faint flavour of romance."
+        },
+        {
+          "type": "book",
+          "text": "In two minutes you have made me happy for ever."
+        },
+        {
+          "type": "book",
+          "text": "And we parted. I walked about all night; I could not make up my mind to go home. I was so happy. . . . To-morrow!"
+        },
+        {
+          "type": "narrator",
+          "text": "He has sworn not to fall in love. Can a dreamer keep that promise?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "She turns back at the corner, a mischievous smile",
+          "graphic": "Hook text; Night 1 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "Clock tower; she taps it with a gloved finger",
+          "graphic": "Timer: 'Tomorrow 22:00'"
+        },
+        {
+          "sec": 5,
+          "visual": "She holds up one finger, serious",
+          "graphic": "Rule card in gold: 'Rule #1: Don't fall in love with me'"
+        },
+        {
+          "sec": 6,
+          "visual": "She extends her hand for friendship",
+          "graphic": "Caption: 'here's my hand'"
+        },
+        {
+          "sec": 6,
+          "visual": "He grips it with both hands, eager",
+          "graphic": "Handwritten: 'I swear!'"
+        },
+        {
+          "sec": 6,
+          "visual": "A spark like gunpowder fizzes between their hands",
+          "graphic": "Spark graphic"
+        },
+        {
+          "sec": 6,
+          "visual": "She lifts a finger to her lips",
+          "graphic": "Padlock icon with 'SECRET'"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer's face glowing gold",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "They part; 'Till to-morrow!' exchanged across the street",
+          "graphic": "Speech bubbles"
+        },
+        {
+          "sec": 6,
+          "visual": "Fast-motion: the Dreamer walking the canal all night as the pale white-night sky never darkens",
+          "graphic": "Time-lapse clock spinning"
+        },
+        {
+          "sec": 6,
+          "visual": "Dawn light on the Dreamer, smiling at the water",
+          "graphic": "Handwritten: 'To-morrow!' and swipe arrow 'Part 8'"
+        }
+      ],
+      "gold_quote": "In two minutes you have made me happy for ever.",
+      "engagement": "Could you promise someone you'd never fall for them? Yes or no.",
+      "cliffhanger": "He has sworn not to fall in love. Can a dreamer keep that promise?",
+      "duration_sec": 63
+    },
+    {
+      "part": 8,
+      "section": "Second Night",
+      "lines": "377-441",
+      "title": "The Man With No History",
+      "hook_text": "Night 2. 'Tell me your whole history.'",
+      "hook_vo": "Well, so you have survived!",
+      "script": [
+        {
+          "type": "book",
+          "text": "Well, so you have survived!"
+        },
+        {
+          "type": "book",
+          "text": "I’ve been here for the last two hours; you don’t know what a state I have been in all day."
+        },
+        {
+          "type": "narrator",
+          "text": "But she has decided to be sensible. She realises she knows nothing about him."
+        },
+        {
+          "type": "book",
+          "text": "Well, what sort of man are you? Come, make haste — begin — tell me your whole history."
+        },
+        {
+          "type": "book",
+          "text": "My history! But who has told you I have a history? I have no history."
+        },
+        {
+          "type": "book",
+          "text": "Then how have you lived, if you have no history?"
+        },
+        {
+          "type": "book",
+          "text": "Absolutely without any history! I have lived, as they say, keeping myself to myself, that is, utterly alone — alone, entirely alone."
+        },
+        {
+          "type": "narrator",
+          "text": "She tries to guess. Maybe he has a grandmother like hers:"
+        },
+        {
+          "type": "book",
+          "text": "She is blind and will never let me go anywhere,"
+        },
+        {
+          "type": "book",
+          "text": "she called me up and pinned my dress to hers, and ever since we sit like that for days together;"
+        },
+        {
+          "type": "book",
+          "text": "Very well, I am a type!"
+        },
+        {
+          "type": "narrator",
+          "text": "A type? What on earth is a type? He is about to explain, and it will take a while."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Moon tracker fills from crescent to half; same canal, next night",
+          "graphic": "Hook text; Night 2 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "She grabs both his hands, laughing",
+          "graphic": "Caption: 'you have survived!'"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer pacing on the embankment, pocket watch open",
+          "graphic": "Timer: 'waited 2 hours'"
+        },
+        {
+          "sec": 5,
+          "visual": "She pulls her hands away, mock-stern",
+          "graphic": "Handwritten: 'be sensible'"
+        },
+        {
+          "sec": 5,
+          "visual": "She points at him like a judge",
+          "graphic": "Caption card: 'Tell me your whole history'"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer recoils in alarm",
+          "graphic": "Big gold 'NO HISTORY' stamp"
+        },
+        {
+          "sec": 6,
+          "visual": "He stands alone in an empty frame that keeps widening",
+          "graphic": "Text: 'alone — alone, entirely alone'"
+        },
+        {
+          "sec": 6,
+          "visual": "Amber memory flash: a blind grandmother knitting, a girl's dress pinned to hers",
+          "graphic": "Close-up on the safety pin with a gold glint"
+        },
+        {
+          "sec": 6,
+          "visual": "Back to present: she mimes the pin, laughing",
+          "graphic": "Name card: 'The blind grandmother'"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer straightens up, pompous",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "He declares it with a flourish",
+          "graphic": "Caption: 'I am a type!' and swipe arrow 'Part 9'"
+        }
+      ],
+      "gold_quote": "I have lived, as they say, keeping myself to myself, that is, utterly alone",
+      "engagement": "If someone asked for your 'whole history', where would you even start?",
+      "cliffhanger": "A type? What on earth is a type? He is about to explain, and it will take a while.",
+      "duration_sec": 61
+    },
+    {
+      "part": 9,
+      "section": "Second Night",
+      "lines": "442-488",
+      "title": "Her Name Is Nastenka",
+      "hook_text": "Two nights in. He never asked her name.",
+      "hook_vo": "Type, type! What sort of type?",
+      "script": [
+        {
+          "type": "book",
+          "text": "Type, type! What sort of type?"
+        },
+        {
+          "type": "narrator",
+          "text": "She laughs as though she has not laughed for a whole year."
+        },
+        {
+          "type": "book",
+          "text": "A type is an original, it’s an absurd person!"
+        },
+        {
+          "type": "book",
+          "text": "Listen; do you know what is meant by a dreamer?"
+        },
+        {
+          "type": "book",
+          "text": "A dreamer! Indeed I should think I do know. I am a dreamer myself."
+        },
+        {
+          "type": "book",
+          "text": "why, I marry a Chinese Prince!"
+        },
+        {
+          "type": "narrator",
+          "text": "And then it dawns on him."
+        },
+        {
+          "type": "book",
+          "text": "But one minute, I don’t know your name yet."
+        },
+        {
+          "type": "book",
+          "text": "At last! You have been in no hurry to think of it!"
+        },
+        {
+          "type": "book",
+          "text": "My name is Nastenka."
+        },
+        {
+          "type": "narrator",
+          "text": "He sits beside her on the bench and begins, as though reading from a manuscript."
+        },
+        {
+          "type": "book",
+          "text": "There are, Nastenka, though you may not know it, strange nooks in Petersburg."
+        },
+        {
+          "type": "book",
+          "text": "In these corners, dear Nastenka, quite a different life is lived,"
+        },
+        {
+          "type": "narrator",
+          "text": "Strange nooks. Strange people. Who lives in them?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 4,
+          "visual": "She bursts out laughing, head thrown back",
+          "graphic": "Hook text; Night 2 of 4 moon tracker"
+        },
+        {
+          "sec": 4,
+          "visual": "She pulls him to a bench by the canal",
+          "graphic": "Map pin: 'Our bench'"
+        },
+        {
+          "sec": 4,
+          "visual": "Dreamer counts on his fingers, lecturing",
+          "graphic": "Handwritten definition: 'type = an original'"
+        },
+        {
+          "sec": 4,
+          "visual": "She raises her hand: 'me too'",
+          "graphic": "Caption: 'I am a dreamer myself'"
+        },
+        {
+          "sec": 4,
+          "visual": "Violet daydream: Nastenka crowned beside a glittering Chinese Prince in a pagoda",
+          "graphic": "Sparkle overlay"
+        },
+        {
+          "sec": 4,
+          "visual": "Back to present; he freezes, realising",
+          "graphic": "Handwritten: 'her name?!'"
+        },
+        {
+          "sec": 5,
+          "visual": "She rolls her eyes, smiling",
+          "graphic": "Timer: '2 nights, 0 names'"
+        },
+        {
+          "sec": 5,
+          "visual": "Name card in gold script slides in: NASTENKA",
+          "graphic": "Name card: 'Nastenka, 17'"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer sits up straight, holding an imaginary manuscript",
+          "graphic": "Manuscript page graphic"
+        },
+        {
+          "sec": 5,
+          "visual": "Hidden Petersburg courtyards lit by a strange different sun",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 5,
+          "visual": "Push into a dark window in a lonely corner",
+          "graphic": "Swipe arrow 'Part 10'"
+        }
+      ],
+      "gold_quote": "There are, Nastenka, though you may not know it, strange nooks in Petersburg.",
+      "engagement": "Are you a dreamer too? What's your 'Chinese Prince' daydream?",
+      "cliffhanger": "Strange nooks. Strange people. Who lives in them?",
+      "duration_sec": 49
+    },
+    {
+      "part": 10,
+      "section": "Second Night",
+      "lines": "489-560",
+      "title": "Half Man, Half Tortoise",
+      "hook_text": "Dostoevsky: a dreamer is not a human being.",
+      "hook_vo": "The dreamer — if you want an exact definition — is not a human being, but a creature of an intermediate sort.",
+      "script": [
+        {
+          "type": "book",
+          "text": "The dreamer — if you want an exact definition — is not a human being, but a creature of an intermediate sort."
+        },
+        {
+          "type": "book",
+          "text": "once he slips into his corner, he grows to it like a snail, or, anyway, he is in that respect very much like that remarkable creature, which is an animal and a house both at once, and is called a tortoise."
+        },
+        {
+          "type": "narrator",
+          "text": "And when a rare friend visits? Panic. Awkward silence. The friend grabs his hat and flees, never to return. The host looks"
+        },
+        {
+          "type": "book",
+          "text": "as though he had only just committed some crime within his four walls;"
+        },
+        {
+          "type": "narrator",
+          "text": "like"
+        },
+        {
+          "type": "book",
+          "text": "an unhappy kitten treacherously captured, roughly handled,"
+        },
+        {
+          "type": "narrator",
+          "text": "Nastenka stares at him, mouth open."
+        },
+        {
+          "type": "book",
+          "text": "all I know is, that this adventure must have happened word for word to you."
+        },
+        {
+          "type": "book",
+          "text": "“Doubtless,” I answered, with the gravest face."
+        },
+        {
+          "type": "book",
+          "text": "You talk as though you were reading it out of a book."
+        },
+        {
+          "type": "book",
+          "text": "at this moment a thousand valves have opened in my head, and I must let myself flow in a river of words, or I shall choke."
+        },
+        {
+          "type": "narrator",
+          "text": "So what does the dreamer actually do, alone in that corner? He is about to show her."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Bench by the canal; the Dreamer speaks, Nastenka listens",
+          "graphic": "Hook text; Night 2 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "Animated: the Dreamer's figure morphs into a tortoise with a tiny house for a shell",
+          "graphic": "Handwritten: 'animal + house'"
+        },
+        {
+          "sec": 5,
+          "visual": "His room: grimy green walls, tobacco haze",
+          "graphic": "Caption: 'four walls, invariably painted green'"
+        },
+        {
+          "sec": 5,
+          "visual": "Knock at the door; a cheerful friend enters, the Dreamer leaps up guiltily",
+          "graphic": "Comic 'GUILTY' stamp"
+        },
+        {
+          "sec": 6,
+          "visual": "Both men sit in silence; a clock ticks loudly",
+          "graphic": "Timer counting awkward seconds"
+        },
+        {
+          "sec": 6,
+          "visual": "Friend snatches his hat and bolts out the door",
+          "graphic": "Caption: 'never to come again'"
+        },
+        {
+          "sec": 6,
+          "visual": "A ruffled kitten hiding under a chair, washing its face",
+          "graphic": "Split screen: kitten / the Dreamer"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka, eyes and mouth wide open",
+          "graphic": "Handwritten: 'word for word to you'"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer nods gravely, fighting a smile",
+          "graphic": "Caption: 'Doubtless'"
+        },
+        {
+          "sec": 6,
+          "visual": "Seven seals burst off an ancient urn, light pouring out",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka folds her hands, mock-obedient",
+          "graphic": "Caption: 'I won't say a word!'"
+        },
+        {
+          "sec": 6,
+          "visual": "A river of glowing words flows from his head across the canal",
+          "graphic": "Swipe arrow 'Part 11'"
+        }
+      ],
+      "gold_quote": "a thousand valves have opened in my head",
+      "engagement": "Introverts: what's your 'tortoise shell'? Name your corner.",
+      "cliffhanger": "So what does the dreamer actually do, alone in that corner? He is about to show her.",
+      "duration_sec": 68
+    },
+    {
+      "part": 11,
+      "section": "Second Night",
+      "lines": "561-625",
+      "title": "The Dreamer's Golden Hour",
+      "hook_text": "His best hour of the day isn't even real.",
+      "hook_vo": "There is, my friend Nastenka, one hour in my day which I like extremely.",
+      "script": [
+        {
+          "type": "book",
+          "text": "There is, my friend Nastenka, one hour in my day which I like extremely."
+        },
+        {
+          "type": "narrator",
+          "text": "Evening. Work is over. Everyone hurries home. And our hero, told in the third person"
+        },
+        {
+          "type": "book",
+          "text": "for one feels awfully ashamed to tell it in the first person"
+        },
+        {
+          "type": "narrator",
+          "text": "walks the canal with a strange smile."
+        },
+        {
+          "type": "book",
+          "text": "He is rich now with his own individual life;"
+        },
+        {
+          "type": "book",
+          "text": "Now ‘the Goddess of Fancy’ (if you have read Zhukovsky, dear Nastenka) has already with fantastic hand spun her golden warp and begun weaving upon it patterns of marvellous magic life"
+        },
+        {
+          "type": "narrator",
+          "text": "He forgets where he is. Strangers laugh at him. He doesn't even notice eating dinner. Then darkness falls in his room."
+        },
+        {
+          "type": "book",
+          "text": "his soul is sad and empty; the whole kingdom of fancies drops to pieces about him,"
+        },
+        {
+          "type": "narrator",
+          "text": "Until a new dream stirs."
+        },
+        {
+          "type": "book",
+          "text": "A fresh dream — fresh happiness! A fresh rush of delicate, voluptuous poison! What is real life to him!"
+        },
+        {
+          "type": "narrator",
+          "text": "And what exactly does he dream about? Everything."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Sunset over Petersburg, office doors opening, crowds spilling out",
+          "graphic": "Hook text; Night 2 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer walking among them, pale face, faint smile",
+          "graphic": "Name card: 'Our Hero (third person)'"
+        },
+        {
+          "sec": 5,
+          "visual": "He walks past a bowing gentleman and a carriage without seeing them",
+          "graphic": "Handwritten: 'trivialities'"
+        },
+        {
+          "sec": 5,
+          "visual": "Violet: a goddess at a loom weaving golden threads into scenes",
+          "graphic": "Caption: 'the Goddess of Fancy'"
+        },
+        {
+          "sec": 5,
+          "visual": "An old lady asks him directions; he jumps, startled",
+          "graphic": "Comic jolt lines"
+        },
+        {
+          "sec": 5,
+          "visual": "A little girl laughs at his dreamy grin and gestures",
+          "graphic": "Laugh sparkles"
+        },
+        {
+          "sec": 5,
+          "visual": "His room: Matrona clears the table, hands him a pipe",
+          "graphic": "Name card: 'Matrona, his servant'"
+        },
+        {
+          "sec": 5,
+          "visual": "Darkness creeps in; violet dream-shapes crumble to dust",
+          "graphic": "Caption: 'drops to pieces'"
+        },
+        {
+          "sec": 5,
+          "visual": "A book slips from his hand to the floor",
+          "graphic": "Page counter: 'page 3'"
+        },
+        {
+          "sec": 6,
+          "visual": "Violet light floods back in, brighter",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer's eyes reflecting a swarm of glowing scenes",
+          "graphic": "Swipe arrow 'Part 12'"
+        }
+      ],
+      "gold_quote": "A fresh dream — fresh happiness! A fresh rush of delicate, voluptuous poison!",
+      "engagement": "What time of day do you daydream the most?",
+      "cliffhanger": "And what exactly does he dream about? Everything.",
+      "duration_sec": 57
+    },
+    {
+      "part": 12,
+      "section": "Second Night",
+      "lines": "626-698",
+      "title": "'I Am Free'",
+      "hook_text": "His greatest love story never happened.",
+      "hook_vo": "You ask, perhaps, what he is dreaming of. Why ask that? — why, of everything . . .",
+      "script": [
+        {
+          "type": "book",
+          "text": "You ask, perhaps, what he is dreaming of. Why ask that? — why, of everything . . ."
+        },
+        {
+          "type": "book",
+          "text": "of the lot of the poet, first unrecognized, then crowned with laurels;"
+        },
+        {
+          "type": "narrator",
+          "text": "Battles, Cleopatra, history. And then, quieter:"
+        },
+        {
+          "type": "book",
+          "text": "of a little home of one’s own and beside one a dear creature who listens to one on a winter’s evening, opening her little mouth and eyes as you are listening to me now, my angel. . . ."
+        },
+        {
+          "type": "book",
+          "text": "Would you believe, looking at him, dear Nastenka, that he has never known her whom he loves in his ecstatic dreams?"
+        },
+        {
+          "type": "narrator",
+          "text": "In the dream she was trapped with a gloomy old husband. Years later he finds her at a masked ball in the south, where"
+        },
+        {
+          "type": "book",
+          "text": "she hurriedly removes her mask and whispering, ‘I am free,’ flings herself trembling into his arms,"
+        },
+        {
+          "type": "narrator",
+          "text": "And right at that moment, a cheerful friend bursts through the door."
+        },
+        {
+          "type": "book",
+          "text": "‘My dear boy, I have this minute come from Pavlovsk.’ My goodness! the old count is dead, unutterable happiness is close at hand — and people arrive from Pavlovsk!"
+        },
+        {
+          "type": "narrator",
+          "text": "He ends the speech joking. But his chin is twitching. Is he about to cry?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Violet montage: a poet crowned with laurels",
+          "graphic": "Hook text; Night 2 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "Rapid violet flashes: battlefield, Cleopatra on a barge, a cathedral council",
+          "graphic": "Quick-cut titles in handwriting"
+        },
+        {
+          "sec": 5,
+          "visual": "Violet: a cosy winter room, a girl listening by the fire",
+          "graphic": "Handwritten: 'a little home of one's own'"
+        },
+        {
+          "sec": 5,
+          "visual": "Match cut: the girl's face becomes Nastenka listening on the bench",
+          "graphic": "Split screen: dream / present"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer's face, longing",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "Violet: a gloomy old house and a wild, overgrown garden",
+          "graphic": "Caption: 'the old count'"
+        },
+        {
+          "sec": 6,
+          "visual": "Violet: a palazzo ball drowned in lights, music swelling",
+          "graphic": "Map pin: 'the divinely eternal city'"
+        },
+        {
+          "sec": 6,
+          "visual": "A masked woman tears off her mask",
+          "graphic": "Handwritten in gold: 'I am free'"
+        },
+        {
+          "sec": 6,
+          "visual": "She flings herself into his arms on a rose-wreathed balcony",
+          "graphic": "Petals burst"
+        },
+        {
+          "sec": 6,
+          "visual": "Hard cut: the door bangs open on the dark green room, a lanky friend grinning",
+          "graphic": "Caption: 'from Pavlovsk!'"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer blushes like a schoolboy caught with a stolen apple",
+          "graphic": "Handwritten thought: 'the old count is dead!'"
+        },
+        {
+          "sec": 6,
+          "visual": "The violet dream shatters like glass; back on the bench, the Dreamer's chin trembles",
+          "graphic": "Swipe arrow 'Part 13'"
+        }
+      ],
+      "gold_quote": "he has never known her whom he loves in his ecstatic dreams",
+      "engagement": "Ever had a perfect daydream ruined by real life? What interrupted it?",
+      "cliffhanger": "He ends the speech joking. But his chin is twitching. Is he about to cry?",
+      "duration_sec": 68
+    },
+    {
+      "part": 13,
+      "section": "Second Night",
+      "lines": "699-734",
+      "title": "For Two Evenings, I Have Lived",
+      "hook_text": "She didn't laugh. She asked one question.",
+      "hook_vo": "Surely you haven’t lived like that all your life?",
+      "script": [
+        {
+          "type": "book",
+          "text": "Surely you haven’t lived like that all your life?"
+        },
+        {
+          "type": "narrator",
+          "text": "He expected her to burst out laughing. Instead, she pressed his hand."
+        },
+        {
+          "type": "book",
+          "text": "“All my life, Nastenka,” I answered; “all my life, and it seems to me I shall go on so to the end.”"
+        },
+        {
+          "type": "book",
+          "text": "“No, that won’t do,” she said uneasily, “that must not be;"
+        },
+        {
+          "type": "book",
+          "text": "“I know, Nastenka, I know!” I cried, unable to restrain my feelings longer."
+        },
+        {
+          "type": "book",
+          "text": "“And I realize now, more than ever, that I have lost all my best years!"
+        },
+        {
+          "type": "book",
+          "text": "what shall I have to dream of when I have been so happy in reality beside you!"
+        },
+        {
+          "type": "book",
+          "text": "Oh, may you be blessed, dear girl, for not having repulsed me at first, for enabling me to say that for two evenings, at least, I have lived."
+        },
+        {
+          "type": "book",
+          "text": "“Oh, no, no!” cried Nastenka and tears glistened in her eyes."
+        },
+        {
+          "type": "book",
+          "text": "what are two evenings?"
+        },
+        {
+          "type": "narrator",
+          "text": "But there is something darker he has not told her yet. Something he calls a crime."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Silence on the bench; the Dreamer stares at the water",
+          "graphic": "Hook text; Night 2 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "Close-up: her hand pressing his",
+          "graphic": "Handwritten thought: 'she did not laugh'"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer shakes his head slowly",
+          "graphic": "Caption: 'All my life'"
+        },
+        {
+          "sec": 5,
+          "visual": "Nastenka frowns, worried",
+          "graphic": "Handwritten: 'that must not be'"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer stands, emotion breaking through",
+          "graphic": "Wind lifts his coat"
+        },
+        {
+          "sec": 5,
+          "visual": "Amber memory montage of empty years in his green room, calendars flipping",
+          "graphic": "Counter: 'years lost'"
+        },
+        {
+          "sec": 5,
+          "visual": "Back to present: golden lamp light around the two of them",
+          "graphic": "Caption: 'happy in reality'"
+        },
+        {
+          "sec": 5,
+          "visual": "Two candle icons light up in turn",
+          "graphic": "Counter: 'Evenings lived: 2'"
+        },
+        {
+          "sec": 5,
+          "visual": "Close on his face",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "Tears glisten in Nastenka's eyes",
+          "graphic": "Handwritten: 'what are two evenings?'"
+        },
+        {
+          "sec": 6,
+          "visual": "Wide shot: two figures on the bench, dark canal",
+          "graphic": "Swipe arrow 'Part 14'"
+        }
+      ],
+      "gold_quote": "for enabling me to say that for two evenings, at least, I have lived.",
+      "engagement": "What's the most 'alive' you've ever felt in just two days?",
+      "cliffhanger": "But there is something darker he has not told her yet. Something he calls a crime.",
+      "duration_sec": 57
+    },
+    {
+      "part": 14,
+      "section": "Second Night",
+      "lines": "735-786",
+      "title": "Where Have You Buried Your Best Days?",
+      "hook_text": "He calls his own life a crime.",
+      "hook_vo": "for such a life is a crime and a sin.",
+      "script": [
+        {
+          "type": "book",
+          "text": "for such a life is a crime and a sin."
+        },
+        {
+          "type": "book",
+          "text": "it begins to seem to me at such times that I am incapable of beginning a life in real life,"
+        },
+        {
+          "type": "book",
+          "text": "after my fantastic nights I have moments of returning sobriety, which are awful!"
+        },
+        {
+          "type": "narrator",
+          "text": "Out there, real people live real lives. And his dreams are running out."
+        },
+        {
+          "type": "book",
+          "text": "Do you know that I am forced now to celebrate the anniversary of my own sensations,"
+        },
+        {
+          "type": "narrator",
+          "text": "He goes back alone to places where he once felt happy, a year later, to the hour."
+        },
+        {
+          "type": "book",
+          "text": "And one asks oneself where are one’s dreams. And one shakes one’s head and says how rapidly the years fly by!"
+        },
+        {
+          "type": "book",
+          "text": "Where have you buried your best days? Have you lived or not?"
+        },
+        {
+          "type": "book",
+          "text": "Your fantastic world will grow pale, your dreams will fade and die and will fall like the yellow leaves from the trees. . . ."
+        },
+        {
+          "type": "narrator",
+          "text": "Nastenka is wiping away tears. And now she has a confession of her own."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Dreamer speaking intensely, the canal black behind him",
+          "graphic": "Hook text; Night 2 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "Gold verdict stamp slams down",
+          "graphic": "Handwritten: 'a crime and a sin'"
+        },
+        {
+          "sec": 5,
+          "visual": "His room at grey dawn after a sleepless night, dreams fading off the walls",
+          "graphic": "Caption: 'returning sobriety'"
+        },
+        {
+          "sec": 5,
+          "visual": "Fast-motion crowds in a bright Nevsky Prospect, life rushing past him",
+          "graphic": "Split screen: the crowd / him alone"
+        },
+        {
+          "sec": 5,
+          "visual": "He lights a single candle on a tiny cake for no one",
+          "graphic": "Caption: 'the anniversary of my own sensations'"
+        },
+        {
+          "sec": 5,
+          "visual": "He walks the same street, same hour, a year apart; two ghostly versions overlap",
+          "graphic": "Calendar: 'one year ago today'"
+        },
+        {
+          "sec": 5,
+          "visual": "He shakes his head slowly",
+          "graphic": "Handwritten: 'how rapidly the years fly by'"
+        },
+        {
+          "sec": 5,
+          "visual": "Black screen, one line in gold",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 5,
+          "visual": "Violet dream images go pale and grey",
+          "graphic": "Colour drains from the frame"
+        },
+        {
+          "sec": 6,
+          "visual": "Yellow leaves fall from a tree onto the canal water",
+          "graphic": "Leaf particles"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka wipes a tear from her cheek",
+          "graphic": "Swipe arrow 'Part 15'"
+        }
+      ],
+      "gold_quote": "Where have you buried your best days? Have you lived or not?",
+      "engagement": "Answer him honestly: have you lived, or not?",
+      "cliffhanger": "Nastenka is wiping away tears. And now she has a confession of her own.",
+      "duration_sec": 57
+    },
+    {
+      "part": 15,
+      "section": "Second Night",
+      "lines": "787-817",
+      "title": "Now We Shall Be Two",
+      "hook_text": "She made him a promise: we'll never part.",
+      "hook_vo": "Come, don’t work on my feelings any more,",
+      "script": [
+        {
+          "type": "book",
+          "text": "Come, don’t work on my feelings any more,"
+        },
+        {
+          "type": "narrator",
+          "text": "said Nastenka, wiping away a tear."
+        },
+        {
+          "type": "book",
+          "text": "Now it’s over! Now we shall be two together. Now, whatever happens to me, we will never part."
+        },
+        {
+          "type": "book",
+          "text": "truly I understand you, for all that you have described I have been through myself, when grandmother pinned me to her dress."
+        },
+        {
+          "type": "book",
+          "text": "I want to tell you my history too, all without concealment, and after that you must give me advice."
+        },
+        {
+          "type": "narrator",
+          "text": "Advice? He has never given advice in his life. But tonight he feels brave."
+        },
+        {
+          "type": "book",
+          "text": "I don’t only want sensible advice, I want warm brotherly advice, as though you had been fond of me all your life!"
+        },
+        {
+          "type": "book",
+          "text": "and if I had been fond of you for twenty years, I couldn’t have been fonder of you than I am now."
+        },
+        {
+          "type": "book",
+          "text": "“Your hand,” said Nastenka."
+        },
+        {
+          "type": "book",
+          "text": "“Here it is,” said I, giving her my hand."
+        },
+        {
+          "type": "book",
+          "text": "And so let us begin my history!"
+        },
+        {
+          "type": "narrator",
+          "text": "Why was she crying on the canal that first night? Her story starts now."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Nastenka wipes a tear with her glove, half-laughing",
+          "graphic": "Hook text; Night 2 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "She grabs his arm firmly",
+          "graphic": "Caption: 'Now it's over!'"
+        },
+        {
+          "sec": 5,
+          "visual": "Two silhouettes side by side on the bench",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 5,
+          "visual": "Amber memory flash: the pinned dress, her sitting beside grandmother",
+          "graphic": "Amber blur border"
+        },
+        {
+          "sec": 5,
+          "visual": "She leans in, earnest",
+          "graphic": "Handwritten: 'my history too'"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer puffs up, proud and nervous",
+          "graphic": "Caption: 'advice?'"
+        },
+        {
+          "sec": 6,
+          "visual": "She shakes her head, smiling",
+          "graphic": "Handwritten: 'warm brotherly advice'"
+        },
+        {
+          "sec": 6,
+          "visual": "He laughs, delighted",
+          "graphic": "Timer: '20 years' spinning"
+        },
+        {
+          "sec": 6,
+          "visual": "She holds out her hand",
+          "graphic": "Caption: 'Your hand'"
+        },
+        {
+          "sec": 6,
+          "visual": "Close-up: their hands meet, gold light",
+          "graphic": "Handshake glow"
+        },
+        {
+          "sec": 6,
+          "visual": "Screen washes from cold blue into warm amber",
+          "graphic": "Title card: 'NASTENKA'S HISTORY'; swipe arrow 'Part 16'"
+        }
+      ],
+      "gold_quote": "Now we shall be two together.",
+      "engagement": "Would you rather get sensible advice or 'warm brotherly' advice?",
+      "cliffhanger": "Why was she crying on the canal that first night? Her story starts now.",
+      "duration_sec": 60
+    },
+    {
+      "part": 16,
+      "section": "Nastenka's History",
+      "lines": "818-850",
+      "title": "Pinned to Grandmother",
+      "hook_text": "Her grandmother pinned her dress to her own.",
+      "hook_vo": "she took a pin and pinned my dress to hers,",
+      "script": [
+        {
+          "type": "book",
+          "text": "she took a pin and pinned my dress to hers,"
+        },
+        {
+          "type": "narrator",
+          "text": "Nastenka is seventeen, an orphan, raised by her blind grandmother."
+        },
+        {
+          "type": "book",
+          "text": "I have an old grandmother. I came into her hands when I was quite a little girl, for my father and mother are dead."
+        },
+        {
+          "type": "book",
+          "text": "and said that we should sit like that for the rest of our lives if, of course, I did not become a better girl."
+        },
+        {
+          "type": "narrator",
+          "text": "She tried to escape just once."
+        },
+        {
+          "type": "book",
+          "text": "I tried to deceive her once, and persuaded Fekla to sit in my place. Fekla is our charwoman, she is deaf."
+        },
+        {
+          "type": "book",
+          "text": "Grandmother woke up while I was out, and asked some questions;"
+        },
+        {
+          "type": "book",
+          "text": "Fekla saw that grandmother was asking her something, but could not tell what it was; she wondered what to do, undid the pin and ran away."
+        },
+        {
+          "type": "narrator",
+          "text": "They both burst out laughing. Then she stops."
+        },
+        {
+          "type": "book",
+          "text": "I tell you what, don’t you laugh at grandmother."
+        },
+        {
+          "type": "book",
+          "text": "I had to sit down in my place at once, and after that I was not allowed to stir."
+        },
+        {
+          "type": "narrator",
+          "text": "Trapped for good. Until a stranger moved in upstairs."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Amber living painting: a small wooden room, a blind grandmother knitting in an armchair",
+          "graphic": "Hook text; amber 'Her Story' moon tab"
+        },
+        {
+          "sec": 5,
+          "visual": "Close-up: a pin pushed through two dresses, joining them",
+          "graphic": "Gold glint on the pin"
+        },
+        {
+          "sec": 6,
+          "visual": "Young Nastenka beside her, sewing, bored",
+          "graphic": "Name card: 'Nastenka, 15'"
+        },
+        {
+          "sec": 6,
+          "visual": "Grandmother's clouded eyes, stern mouth",
+          "graphic": "Name card: 'Grandmother (blind)'"
+        },
+        {
+          "sec": 6,
+          "visual": "Calendar pages flip",
+          "graphic": "Counter: 'Pinned: 2 years'"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka whispers to a big, deaf charwoman and swaps seats",
+          "graphic": "Name card: 'Fekla (deaf)'"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka tiptoes out the door, grinning",
+          "graphic": "Caption: 'escape!'"
+        },
+        {
+          "sec": 6,
+          "visual": "Grandmother wakes and asks a question; Fekla stares blankly",
+          "graphic": "Speech bubble with '???'"
+        },
+        {
+          "sec": 6,
+          "visual": "Fekla unpins herself and bolts, comic fast-motion",
+          "graphic": "Speed lines"
+        },
+        {
+          "sec": 6,
+          "visual": "Present, cold blue: the Dreamer and Nastenka laughing on the bench; she stops abruptly",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "Amber: Nastenka back in her seat, pin firmly fixed, staring at the ceiling above",
+          "graphic": "Swipe arrow 'Part 17'"
+        }
+      ],
+      "gold_quote": "don’t you laugh at grandmother. I laugh because it’s funny.",
+      "engagement": "Strictest thing your family ever did to keep you home? Go.",
+      "cliffhanger": "Trapped for good. Until a stranger moved in upstairs.",
+      "duration_sec": 64
+    },
+    {
+      "part": 17,
+      "section": "Nastenka's History",
+      "lines": "851-882",
+      "title": "The New Lodger",
+      "hook_text": "Grandma's first question: is he handsome?",
+      "hook_vo": "well, there moved into our upper storey a new lodger.",
+      "script": [
+        {
+          "type": "book",
+          "text": "well, there moved into our upper storey a new lodger."
+        },
+        {
+          "type": "narrator",
+          "text": "The old lodger had been"
+        },
+        {
+          "type": "book",
+          "text": "a dumb, blind, lame, dried-up little old man,"
+        },
+        {
+          "type": "book",
+          "text": "But the new lodger, as luck would have it, was a young man, a stranger not of these parts."
+        },
+        {
+          "type": "book",
+          "text": "Tell me, Nastenka, what is our lodger like — is he young or old?"
+        },
+        {
+          "type": "book",
+          "text": "And is he pleasant looking?"
+        },
+        {
+          "type": "book",
+          "text": "Yes, he is pleasant looking, grandmother,"
+        },
+        {
+          "type": "book",
+          "text": "Oh, what a nuisance, what a nuisance! I tell you this, grandchild, that you may not be looking after him."
+        },
+        {
+          "type": "narrator",
+          "text": "Grandmother always complains it was better in the old days:"
+        },
+        {
+          "type": "book",
+          "text": "she was younger in old days, and the sun was warmer in old days, and cream did not turn so sour in old days"
+        },
+        {
+          "type": "narrator",
+          "text": "Nastenka goes back to her knitting. But a question nags at her."
+        },
+        {
+          "type": "book",
+          "text": "why did grandmother suggest it to me? Why did she ask whether the lodger was young and good-looking?"
+        },
+        {
+          "type": "narrator",
+          "text": "She forgets about him. Then one morning, he knocks on their door."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Amber: the little wooden house with three windows and an upper storey",
+          "graphic": "Hook text; amber 'Her Story' moon tab"
+        },
+        {
+          "sec": 5,
+          "visual": "A tiny, hunched old lodger shuffles away and fades out",
+          "graphic": "Name card: 'The old lodger (gone)'"
+        },
+        {
+          "sec": 5,
+          "visual": "Feet on the stairs: a young man with a travelling bag climbs up",
+          "graphic": "Name card: 'The Lodger'"
+        },
+        {
+          "sec": 5,
+          "visual": "Grandmother leans toward Nastenka, conspiratorial",
+          "graphic": "Speech bubble: 'young or old?'"
+        },
+        {
+          "sec": 5,
+          "visual": "Nastenka blushes, eyes on her knitting",
+          "graphic": "Handwritten thought: 'don't lie...'"
+        },
+        {
+          "sec": 5,
+          "visual": "Grandmother throws up her hands",
+          "graphic": "Caption: 'what a nuisance!'"
+        },
+        {
+          "sec": 6,
+          "visual": "Sepia vignettes: a warmer sun, a younger grandmother, fresh cream",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka counting stitches, distracted",
+          "graphic": "Stitch counter"
+        },
+        {
+          "sec": 6,
+          "visual": "She glances at the ceiling",
+          "graphic": "Handwritten: 'why did she ask?'"
+        },
+        {
+          "sec": 6,
+          "visual": "Footsteps creak overhead",
+          "graphic": "Sound-wave graphic"
+        },
+        {
+          "sec": 6,
+          "visual": "A knock on the door rattles the frame",
+          "graphic": "Swipe arrow 'Part 18'"
+        }
+      ],
+      "gold_quote": "and the sun was warmer in old days",
+      "engagement": "What does your grandparent always say was 'better in the old days'?",
+      "cliffhanger": "She forgets about him. Then one morning, he knocks on their door.",
+      "duration_sec": 60
+    },
+    {
+      "part": 18,
+      "section": "Nastenka's History",
+      "lines": "883-902",
+      "title": "Caught on the Pin",
+      "hook_text": "The most embarrassing moment of her life.",
+      "hook_vo": "I jumped so that grandmother’s chair moved.",
+      "script": [
+        {
+          "type": "book",
+          "text": "I jumped so that grandmother’s chair moved."
+        },
+        {
+          "type": "narrator",
+          "text": "The lodger had dropped in about wallpaper. Grandmother sent Nastenka for her reckoner, and"
+        },
+        {
+          "type": "book",
+          "text": "I jumped up at once; I blushed all over, I don’t know why, and forgot I was sitting pinned to grandmother;"
+        },
+        {
+          "type": "book",
+          "text": "When I saw that the lodger knew all about me now, I blushed, stood still as though I had been shot, and suddenly began to cry"
+        },
+        {
+          "type": "book",
+          "text": "When the lodger saw, saw that I was ashamed on his account, he bowed and went away at once!"
+        },
+        {
+          "type": "book",
+          "text": "After that I felt ready to die at the least sound in the passage."
+        },
+        {
+          "type": "book",
+          "text": "‘It’s the lodger,’ I kept thinking; I stealthily undid the pin in case."
+        },
+        {
+          "type": "narrator",
+          "text": "He never came. Then, two weeks later, a message:"
+        },
+        {
+          "type": "book",
+          "text": "he had a great number of French books, and that they were all good books that I might read,"
+        },
+        {
+          "type": "narrator",
+          "text": "Grandmother agrees, on one condition. What does she think is hidden in those books?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Amber: the lodger in the doorway, hat in hand",
+          "graphic": "Hook text; amber 'Her Story' moon tab"
+        },
+        {
+          "sec": 5,
+          "visual": "Grandmother waves toward the bedroom",
+          "graphic": "Speech bubble: 'bring me my reckoner'"
+        },
+        {
+          "sec": 5,
+          "visual": "Nastenka leaps up; the armchair lurches with her",
+          "graphic": "Slow-motion, pin stretching"
+        },
+        {
+          "sec": 5,
+          "visual": "The lodger's eyes drop to the pin",
+          "graphic": "Gold glint, freeze frame"
+        },
+        {
+          "sec": 5,
+          "visual": "Nastenka frozen, scarlet, then tears",
+          "graphic": "Caption: 'as though I had been shot'"
+        },
+        {
+          "sec": 5,
+          "visual": "The lodger bows politely and slips out",
+          "graphic": "Door closes softly"
+        },
+        {
+          "sec": 5,
+          "visual": "Nastenka listening at every creak in the passage",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 5,
+          "visual": "She secretly unpins herself, just in case",
+          "graphic": "Handwritten: 'It's the lodger!'"
+        },
+        {
+          "sec": 5,
+          "visual": "Fekla arrives carrying a message",
+          "graphic": "Letter icon"
+        },
+        {
+          "sec": 6,
+          "visual": "A stack of French books tied with string",
+          "graphic": "Caption: 'good books that I might read'"
+        },
+        {
+          "sec": 6,
+          "visual": "Grandmother's face, suspicious",
+          "graphic": "Swipe arrow 'Part 19'"
+        }
+      ],
+      "gold_quote": "stood still as though I had been shot",
+      "engagement": "Your most embarrassing moment in front of a crush. One word.",
+      "cliffhanger": "Grandmother agrees, on one condition. What does she think is hidden in those books?",
+      "duration_sec": 57
+    },
+    {
+      "part": 19,
+      "section": "Nastenka's History",
+      "lines": "903-938",
+      "title": "Love Letters in the Binding",
+      "hook_text": "Grandma's warning about novels is savage.",
+      "hook_vo": "what’s described in them, is how young men seduce virtuous girls;",
+      "script": [
+        {
+          "type": "book",
+          "text": "what’s described in them, is how young men seduce virtuous girls;"
+        },
+        {
+          "type": "book",
+          "text": "how afterwards they leave these unhappy girls to their fate, and they perish in the most pitiful way."
+        },
+        {
+          "type": "book",
+          "text": "and it is all so well described that one sits up all night and reads them on the sly."
+        },
+        {
+          "type": "book",
+          "text": "They are all Walter Scott’s novels, grandmother."
+        },
+        {
+          "type": "book",
+          "text": "Look, hasn’t he stuck a love-letter among them?"
+        },
+        {
+          "type": "book",
+          "text": "But look under the binding; they sometimes stuff it under the bindings, the rascals!"
+        },
+        {
+          "type": "narrator",
+          "text": "No letter. So they read: Scott, then Pushkin."
+        },
+        {
+          "type": "book",
+          "text": "so that at last I could not get on without a book and left off dreaming of how fine it would be to marry a Chinese Prince."
+        },
+        {
+          "type": "narrator",
+          "text": "Then, on the stairs, she runs into him."
+        },
+        {
+          "type": "book",
+          "text": "He stopped, I blushed and he blushed;"
+        },
+        {
+          "type": "book",
+          "text": "‘Which did you like best?’ he asked. I said, ‘Ivanhoe, and Pushkin best of all,’"
+        },
+        {
+          "type": "narrator",
+          "text": "A week later she just happens to be on the stairs again. And this time he asks her out."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Amber: grandmother wagging a finger over the stack of books",
+          "graphic": "Hook text; amber 'Her Story' moon tab"
+        },
+        {
+          "sec": 5,
+          "visual": "Melodrama vignette: a cloaked seducer carrying off a girl",
+          "graphic": "Old engraving style"
+        },
+        {
+          "sec": 5,
+          "visual": "Grandmother reading by candle at night, younger, secretly",
+          "graphic": "Caption: 'on the sly'"
+        },
+        {
+          "sec": 5,
+          "visual": "Nastenka reads a spine aloud",
+          "graphic": "Book title card: 'Walter Scott'"
+        },
+        {
+          "sec": 5,
+          "visual": "Grandmother points: check inside!",
+          "graphic": "Handwritten: 'a love-letter?!'"
+        },
+        {
+          "sec": 5,
+          "visual": "Nastenka shakes a book upside down, peeks under the binding",
+          "graphic": "Magnifying-glass icon"
+        },
+        {
+          "sec": 6,
+          "visual": "Montage: pages turning, a growing pile of books, a Pushkin volume",
+          "graphic": "Counter: 'books read'"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka hugging a book, dreamy",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "Narrow staircase; she and the lodger meet, both blushing",
+          "graphic": "Blush glow on both faces"
+        },
+        {
+          "sec": 6,
+          "visual": "He smiles and asks",
+          "graphic": "Speech bubbles: 'Which did you like best?' / 'Ivanhoe!'"
+        },
+        {
+          "sec": 6,
+          "visual": "She watches him go up the stairs",
+          "graphic": "Swipe arrow 'Part 20'"
+        }
+      ],
+      "gold_quote": "I could not get on without a book",
+      "engagement": "Ivanhoe or Pushkin? What book hooked you on reading?",
+      "cliffhanger": "A week later she just happens to be on the stairs again. And this time he asks her out.",
+      "duration_sec": 60
+    },
+    {
+      "part": 20,
+      "section": "Nastenka's History",
+      "lines": "939-995",
+      "title": "A Night at the Opera",
+      "hook_text": "He asked her out. She said no. Then...",
+      "hook_vo": "would you like to go to the theatre with me?",
+      "script": [
+        {
+          "type": "book",
+          "text": "would you like to go to the theatre with me?"
+        },
+        {
+          "type": "book",
+          "text": "But you must go without your grandmother’s knowing it,"
+        },
+        {
+          "type": "book",
+          "text": "No,’ I said, ‘I don’t want to deceive grandmother. Good-bye."
+        },
+        {
+          "type": "narrator",
+          "text": "That evening he sits downstairs chatting with grandmother, and lets slip:"
+        },
+        {
+          "type": "book",
+          "text": "I have taken a box at the opera for this evening; they are giving The Barber of Seville."
+        },
+        {
+          "type": "book",
+          "text": "Yes, it’s the same barber,’ he said, and glanced at me."
+        },
+        {
+          "type": "book",
+          "text": "why, I took the part of Rosina myself in old days, at a private performance!"
+        },
+        {
+          "type": "narrator",
+          "text": "Grandmother insists they all go."
+        },
+        {
+          "type": "book",
+          "text": "My goodness, what joy!"
+        },
+        {
+          "type": "book",
+          "text": "all that evening our lodger looked at me so nicely, talked so nicely, that I saw at once that he had meant to test me in the morning"
+        },
+        {
+          "type": "book",
+          "text": "I went to bed so proud, so gay, my heart beat so that I was a little feverish, and all night I was raving about The Barber of Seville."
+        },
+        {
+          "type": "narrator",
+          "text": "Surely now he will visit every day. Will he?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Amber: the staircase, the lodger leaning on the banister",
+          "graphic": "Hook text; amber 'Her Story' moon tab"
+        },
+        {
+          "sec": 5,
+          "visual": "He lowers his voice",
+          "graphic": "Handwritten: 'without your grandmother knowing'"
+        },
+        {
+          "sec": 5,
+          "visual": "Nastenka lifts her chin and walks off",
+          "graphic": "Caption: 'Good-bye.'"
+        },
+        {
+          "sec": 5,
+          "visual": "Evening: the lodger in grandmother's parlour with tea",
+          "graphic": "Opera ticket graphic: 'The Barber of Seville'"
+        },
+        {
+          "sec": 5,
+          "visual": "He glances sideways at Nastenka; she turns crimson",
+          "graphic": "Heartbeat pulse ring"
+        },
+        {
+          "sec": 5,
+          "visual": "Grandmother beams, remembering",
+          "graphic": "Sepia inset: young grandmother on stage as Rosina"
+        },
+        {
+          "sec": 5,
+          "visual": "Fast-motion: best clothes on, out the door",
+          "graphic": "Caption: 'what joy!'"
+        },
+        {
+          "sec": 6,
+          "visual": "Opera house interior, gold boxes, music",
+          "graphic": "Name card on stage: 'Rosina'"
+        },
+        {
+          "sec": 6,
+          "visual": "The lodger watches Nastenka instead of the stage",
+          "graphic": "Handwritten: 'he meant to test me'"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka in bed, flushed, humming",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "Morning: she waits by the window",
+          "graphic": "Swipe arrow 'Part 21'"
+        }
+      ],
+      "gold_quote": "I went to bed so proud, so gay, my heart beat so that I was a little feverish",
+      "engagement": "Was the lodger testing her, or just being smooth? Your verdict.",
+      "cliffhanger": "Surely now he will visit every day. Will he?",
+      "duration_sec": 59
+    },
+    {
+      "part": 21,
+      "section": "Nastenka's History",
+      "lines": "996-1026",
+      "title": "The Bundle",
+      "hook_text": "She packed her clothes and climbed the stairs.",
+      "hook_vo": "He stopped coming. And then he said he was leaving.",
+      "script": [
+        {
+          "type": "narrator",
+          "text": "He stopped coming. And then he said he was leaving."
+        },
+        {
+          "type": "book",
+          "text": "He almost entirely gave up coming."
+        },
+        {
+          "type": "book",
+          "text": "I saw that he was simply sorry for me because I was so hardly treated by grandmother, and that was all."
+        },
+        {
+          "type": "book",
+          "text": "At last I grew thin and was very nearly ill."
+        },
+        {
+          "type": "book",
+          "text": "Just a year ago, in May, the lodger came to us and said to grandmother that he had finished his business here, and that he must go back to Moscow for a year."
+        },
+        {
+          "type": "book",
+          "text": "When I heard that, I sank into a chair half dead;"
+        },
+        {
+          "type": "book",
+          "text": "I made up all my clothes in a parcel — all the linen I needed — and with the parcel in my hand, more dead than alive, went upstairs to our lodger."
+        },
+        {
+          "type": "book",
+          "text": "When I opened his door he cried out as he looked at me. He thought I was a ghost,"
+        },
+        {
+          "type": "book",
+          "text": "I began by laying my parcel on his bed, sat down beside it, hid my face in my hands and went into floods of tears."
+        },
+        {
+          "type": "narrator",
+          "text": "She has offered him everything. What will he say?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Amber: an empty chair where the lodger used to sit",
+          "graphic": "Hook text; amber 'Her Story' moon tab"
+        },
+        {
+          "sec": 5,
+          "visual": "Staircase: he bows silently and passes; she stands red as a cherry",
+          "graphic": "Caption: 'simply sorry for me'"
+        },
+        {
+          "sec": 5,
+          "visual": "Nastenka thin and restless at the window, a book unread",
+          "graphic": "Calendar pages flipping"
+        },
+        {
+          "sec": 6,
+          "visual": "The lodger in the parlour, travelling coat on",
+          "graphic": "Map pin jumps from Petersburg to 'Moscow'"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka sinks into a chair",
+          "graphic": "Timer: '1 year'"
+        },
+        {
+          "sec": 6,
+          "visual": "Night: she ties her clothes into a bundle by candlelight",
+          "graphic": "Handwritten: 'I made up my mind'"
+        },
+        {
+          "sec": 6,
+          "visual": "She stands frozen on the dark staircase, bundle in hand",
+          "graphic": "Clock: '1 hour on the stairs'"
+        },
+        {
+          "sec": 6,
+          "visual": "His door opens; he cries out as if seeing a ghost",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "He rushes to bring her water",
+          "graphic": "Water glass ripple"
+        },
+        {
+          "sec": 6,
+          "visual": "She lays the bundle on his bed and sobs into her hands",
+          "graphic": "Amber glow dims"
+        },
+        {
+          "sec": 6,
+          "visual": "The lodger stands over her, silent",
+          "graphic": "Swipe arrow 'Part 22'"
+        }
+      ],
+      "gold_quote": "more dead than alive, went upstairs to our lodger",
+      "engagement": "Brave or reckless? Would you have climbed those stairs?",
+      "cliffhanger": "She has offered him everything. What will he say?",
+      "duration_sec": 63
+    },
+    {
+      "part": 22,
+      "section": "Nastenka's History",
+      "lines": "1027-1062",
+      "title": "One Year. One Promise.",
+      "hook_text": "He swore he'd come back in one year.",
+      "hook_vo": "Listen, my dear good Nastenka, listen; I swear to you that if I am ever in a position to marry, you shall make my happiness.",
+      "script": [
+        {
+          "type": "book",
+          "text": "Listen, my dear good Nastenka, listen; I swear to you that if I am ever in a position to marry, you shall make my happiness."
+        },
+        {
+          "type": "narrator",
+          "text": "At first he said no. He was poor and had nothing. She begged; she would follow him to Moscow."
+        },
+        {
+          "type": "book",
+          "text": "Shame and pride and love were all clamouring in me at once,"
+        },
+        {
+          "type": "book",
+          "text": "I am going to Moscow and shall be there just a year; I hope to establish my position. When I come back, if you still love me, I swear that we will be happy."
+        },
+        {
+          "type": "narrator",
+          "text": "The next day he left. And now"
+        },
+        {
+          "type": "book",
+          "text": "Just a year has past. He has arrived; he has been here three days, and, and"
+        },
+        {
+          "type": "book",
+          "text": "“And what?” I cried, impatient to hear the end."
+        },
+        {
+          "type": "book",
+          "text": "And up to now has not shown himself!"
+        },
+        {
+          "type": "book",
+          "text": "There’s no sign or sound of him."
+        },
+        {
+          "type": "book",
+          "text": "covering her face with her hands broke into such sobs that it sent a pang to my heart to hear them."
+        },
+        {
+          "type": "narrator",
+          "text": "So that is why she was crying on the canal. Can the Dreamer fix this?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Amber: the lodger takes Nastenka's hand, solemn",
+          "graphic": "Hook text; amber 'Her Story' moon tab"
+        },
+        {
+          "sec": 5,
+          "visual": "He spreads empty hands",
+          "graphic": "Handwritten: 'I am a poor man'"
+        },
+        {
+          "sec": 5,
+          "visual": "Nastenka collapses on the bed, sobbing",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "He kneels, swearing a promise",
+          "graphic": "Handwritten oath scroll appears"
+        },
+        {
+          "sec": 6,
+          "visual": "A carriage rolls away into a grey dawn",
+          "graphic": "Map pin: 'Moscow'; timer starts '365 days'"
+        },
+        {
+          "sec": 6,
+          "visual": "Calendar pages race through a year",
+          "graphic": "Timer counts down to 0"
+        },
+        {
+          "sec": 6,
+          "visual": "Colour snaps from amber to cold blue: back on the bench",
+          "graphic": "Moon tracker returns: Night 2 of 4"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka: 'He has arrived'",
+          "graphic": "Counter: 'In Petersburg: 3 days'"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer leans in",
+          "graphic": "Caption: 'And what?'"
+        },
+        {
+          "sec": 6,
+          "visual": "She looks up, courage gathered",
+          "graphic": "Caption: 'has not shown himself!'"
+        },
+        {
+          "sec": 6,
+          "visual": "She hides her face and breaks into sobs; the Dreamer reaches out",
+          "graphic": "Swipe arrow 'Part 23'"
+        }
+      ],
+      "gold_quote": "Shame and pride and love were all clamouring in me at once",
+      "engagement": "He's been back 3 days and hasn't come. Red flag or reasonable delay?",
+      "cliffhanger": "So that is why she was crying on the canal. Can the Dreamer fix this?",
+      "duration_sec": 63
+    },
+    {
+      "part": 23,
+      "section": "Nastenka's History",
+      "lines": "1063-1116",
+      "title": "The Dreamer's Plan",
+      "hook_text": "Advice for the girl he loves: write to him.",
+      "hook_vo": "Good God, can I do nothing to help you in your sorrow?",
+      "script": [
+        {
+          "type": "book",
+          "text": "Good God, can I do nothing to help you in your sorrow?"
+        },
+        {
+          "type": "narrator",
+          "text": "They had agreed: when he returned, he would meet her here, on this very bench."
+        },
+        {
+          "type": "book",
+          "text": "Now he is here, I know it, and yet he does not come!"
+        },
+        {
+          "type": "book",
+          "text": "Tell me, Nastenka, wouldn’t it be possible for me to go to him?"
+        },
+        {
+          "type": "book",
+          "text": "“Would that be possible?” she asked suddenly, raising her head."
+        },
+        {
+          "type": "book",
+          "text": "“No, of course not,” I said pulling myself up; “but I tell you what, write a letter.”"
+        },
+        {
+          "type": "book",
+          "text": "I can’t. I can’t! It would seem as though I were forcing myself on him."
+        },
+        {
+          "type": "narrator",
+          "text": "But he argues the lodger made a promise, so she has every right."
+        },
+        {
+          "type": "book",
+          "text": "“Listen; how would you write?”"
+        },
+        {
+          "type": "book",
+          "text": "I tell you how I would write: ‘Dear Sir.’"
+        },
+        {
+          "type": "book",
+          "text": "Must I really begin like that, ‘Dear Sir’?"
+        },
+        {
+          "type": "narrator",
+          "text": "So what should the letter say? He is about to dictate it, word for word."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 4,
+          "visual": "Dreamer jumps up from the bench in despair",
+          "graphic": "Hook text; Night 2 of 4 moon tracker"
+        },
+        {
+          "sec": 4,
+          "visual": "Amber flashback: Nastenka and the lodger on this same bench, a year ago, 10 p.m.",
+          "graphic": "Map pin: 'Same bench, 1 year ago'"
+        },
+        {
+          "sec": 5,
+          "visual": "Present: she grips the railing, staring at the dark houses",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer points down the street, eager",
+          "graphic": "Handwritten: 'go to him?'"
+        },
+        {
+          "sec": 5,
+          "visual": "Nastenka's head snaps up, hopeful",
+          "graphic": "Caption: 'Would that be possible?'"
+        },
+        {
+          "sec": 5,
+          "visual": "He catches himself, shaking his head",
+          "graphic": "Handwritten: 'No... write a letter'"
+        },
+        {
+          "sec": 5,
+          "visual": "She turns away, firm",
+          "graphic": "Caption: 'I can't. I can't!'"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer counts arguments on his fingers",
+          "graphic": "Bullet list in gold: 'He promised / You have the right'"
+        },
+        {
+          "sec": 5,
+          "visual": "She glances back, curious",
+          "graphic": "Caption: 'how would you write?'"
+        },
+        {
+          "sec": 5,
+          "visual": "A blank letter sheet appears; a quill writes 'Dear Sir'",
+          "graphic": "Handwriting animation"
+        },
+        {
+          "sec": 5,
+          "visual": "She wrinkles her nose at 'Dear Sir'",
+          "graphic": "Swipe arrow 'Part 24'"
+        }
+      ],
+      "gold_quote": "Now he is here, I know it, and yet he does not come!",
+      "engagement": "Would you write the letter, or wait for him to come to you?",
+      "cliffhanger": "So what should the letter say? He is about to dictate it, word for word.",
+      "duration_sec": 53
+    },
+    {
+      "part": 24,
+      "section": "Nastenka's History",
+      "lines": "1117-1172",
+      "title": "Rosina",
+      "hook_text": "He dictated her love letter. Then: plot twist.",
+      "hook_vo": "I am writing to you. Forgive me my impatience; but I have been happy for a whole year in hope; am I to blame for being unable to endure a day of doubt now?",
+      "script": [
+        {
+          "type": "book",
+          "text": "I am writing to you. Forgive me my impatience; but I have been happy for a whole year in hope; am I to blame for being unable to endure a day of doubt now?"
+        },
+        {
+          "type": "book",
+          "text": "Now that you have come, perhaps you have changed your mind. If so, this letter is to tell you that I do not repine, nor blame you."
+        },
+        {
+          "type": "book",
+          "text": "You are not capable of insulting, even in thought, her who so loved and so loves you."
+        },
+        {
+          "type": "book",
+          "text": "“Yes, yes; that’s exactly what I was thinking!” cried Nastenka,"
+        },
+        {
+          "type": "narrator",
+          "text": "He is to deliver it tomorrow through friends. But first, she'll have to write it, surely?"
+        },
+        {
+          "type": "book",
+          "text": "and suddenly I felt in my hand a letter which had evidently been written long before, all ready and sealed up."
+        },
+        {
+          "type": "book",
+          "text": "R, o — Ro; s, i — si; n, a — na,"
+        },
+        {
+          "type": "book",
+          "text": "“Rosina!” we both hummed together;"
+        },
+        {
+          "type": "book",
+          "text": "and laughed through the tears which gleamed like pearls on her black eyelashes."
+        },
+        {
+          "type": "book",
+          "text": "“Till to-morrow! till to-morrow!” was ringing in my ears as she vanished from my sight."
+        },
+        {
+          "type": "narrator",
+          "text": "He will deliver it. The lover will surely come. So why does Night 3 begin in the rain?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "A letter writes itself in elegant handwriting over the night canal",
+          "graphic": "Hook text; Night 2 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "The handwriting continues, glowing gold at 'changed your mind'",
+          "graphic": "Letter animation"
+        },
+        {
+          "sec": 5,
+          "visual": "Nastenka mouths the words with him",
+          "graphic": "Handwritten letter closes: 'so loves you'"
+        },
+        {
+          "sec": 5,
+          "visual": "Her face lights up",
+          "graphic": "Caption: 'exactly what I was thinking!'"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer explains the plan, pointing toward the city",
+          "graphic": "Map pin: 'friends' address'"
+        },
+        {
+          "sec": 6,
+          "visual": "She turns away, flushed like a rose",
+          "graphic": "Blush glow"
+        },
+        {
+          "sec": 6,
+          "visual": "Close-up: a sealed letter slipped into his hand",
+          "graphic": "Wax seal graphic"
+        },
+        {
+          "sec": 6,
+          "visual": "He spells it out, grinning",
+          "graphic": "Letters pop up: R-O / S-I / N-A"
+        },
+        {
+          "sec": 6,
+          "visual": "They sing together, laughing",
+          "graphic": "Musical notes + Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "She hands him a slip with an address",
+          "graphic": "Map pin: 'deliver here'"
+        },
+        {
+          "sec": 6,
+          "visual": "She presses his hands and flies down her side street like an arrow",
+          "graphic": "Motion streak"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer alone under the lamp, letter in hand, clouds gathering",
+          "graphic": "Caption: 'Till to-morrow!'; swipe arrow 'Part 25'"
+        }
+      ],
+      "gold_quote": "laughed through the tears which gleamed like pearls on her black eyelashes",
+      "engagement": "She already wrote the letter. Did she need his advice at all?",
+      "cliffhanger": "He will deliver it. The lover will surely come. So why does Night 3 begin in the rain?",
+      "duration_sec": 68
+    },
+    {
+      "part": 25,
+      "section": "Third Night",
+      "lines": "1173-1213",
+      "title": "Taken by Another",
+      "hook_text": "Night 3. He finally sees the truth.",
+      "hook_vo": "To-day was a gloomy, rainy day without a glimmer of sunlight, like the old age before me.",
+      "script": [
+        {
+          "type": "book",
+          "text": "To-day was a gloomy, rainy day without a glimmer of sunlight, like the old age before me."
+        },
+        {
+          "type": "narrator",
+          "text": "Night three is told looking back, from the rainy day after."
+        },
+        {
+          "type": "book",
+          "text": "To-day we shall not meet."
+        },
+        {
+          "type": "book",
+          "text": "Yesterday was our third interview, our third white night. . . ."
+        },
+        {
+          "type": "book",
+          "text": "Oh, the coquetry of happiness! While I . . . I took it all for the genuine thing, I thought that she. . . ."
+        },
+        {
+          "type": "book",
+          "text": "But, my God, how could I have thought it? How could I have been so blind, when everything had been taken by another already, when nothing was mine;"
+        },
+        {
+          "type": "book",
+          "text": "her very tenderness to me, her anxiety, her love . . . yes, love for me, was nothing else but joy at the thought of seeing another man so soon,"
+        },
+        {
+          "type": "narrator",
+          "text": "And last night, the other man did not come."
+        },
+        {
+          "type": "book",
+          "text": "I think she realized at last that I loved her, and was sorry for my poor love."
+        },
+        {
+          "type": "narrator",
+          "text": "So what exactly happened on the third white night? Let's go back."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Rain streaking down a window, grey light on the Dreamer's face",
+          "graphic": "Hook text; Night 3 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "Empty bench on the canal in the rain",
+          "graphic": "Caption: 'To-day we shall not meet'"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer at his desk, writing; his words appear as handwriting",
+          "graphic": "Diary-page graphic"
+        },
+        {
+          "sec": 5,
+          "visual": "Amber flashback: Nastenka laughing, squeezing his hand last night",
+          "graphic": "Amber blur border"
+        },
+        {
+          "sec": 5,
+          "visual": "He smiles at the memory, then the smile freezes",
+          "graphic": "Handwritten thought: 'I took it all for the genuine thing'"
+        },
+        {
+          "sec": 5,
+          "visual": "Split screen: Nastenka glowing / an empty space beside her labelled 'another'",
+          "graphic": "Split screen"
+        },
+        {
+          "sec": 5,
+          "visual": "Rain intensifies; he presses his forehead to the glass",
+          "graphic": "Caption: 'how could I have been so blind'"
+        },
+        {
+          "sec": 5,
+          "visual": "Amber flashback: Nastenka waiting, her face falling as no one comes",
+          "graphic": "Clock ticking"
+        },
+        {
+          "sec": 5,
+          "visual": "She looks at the Dreamer with sudden pity",
+          "graphic": "Handwritten: 'sorry for my poor love'"
+        },
+        {
+          "sec": 6,
+          "visual": "Rain dripping off the railing",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "Clock rewinds; colour shifts from grey back to night blue",
+          "graphic": "Caption: 'Last night...'; swipe arrow 'Part 26'"
+        }
+      ],
+      "gold_quote": "So when we are unhappy we feel the unhappiness of others more; feeling is not destroyed but concentrated.",
+      "engagement": "Have you ever mistaken someone's happiness for feelings about you?",
+      "cliffhanger": "So what exactly happened on the third white night? Let's go back.",
+      "duration_sec": 57
+    },
+    {
+      "part": 26,
+      "section": "Third Night",
+      "lines": "1214-1260",
+      "title": "Because You're Not in Love With Me",
+      "hook_text": "Her compliment broke his heart.",
+      "hook_vo": "I like you because you have not fallen in love with me.",
+      "script": [
+        {
+          "type": "book",
+          "text": "I like you because you have not fallen in love with me."
+        },
+        {
+          "type": "narrator",
+          "text": "Last night she had arrived an hour early, sure her lover would come. And she told the Dreamer"
+        },
+        {
+          "type": "book",
+          "text": "You know that some men in your place would have been pestering and worrying me, would have been sighing and miserable, while you are so nice!"
+        },
+        {
+          "type": "book",
+          "text": "When I am married we will be great friends, more than brother and sister; I shall care almost as I do for him."
+        },
+        {
+          "type": "book",
+          "text": "I felt horribly sad at that moment, yet something like laughter was stirring in my soul."
+        },
+        {
+          "type": "narrator",
+          "text": "Then: footsteps in the dark."
+        },
+        {
+          "type": "book",
+          "text": "We both started; she almost cried out; I dropped her hand and made a movement as though to walk away. But we were mistaken, it was not he."
+        },
+        {
+          "type": "book",
+          "text": "We will meet him together; I want him to see how fond we are of each other."
+        },
+        {
+          "type": "book",
+          "text": "Your hand is cold, mine burns like fire. How blind you are, Nastenka!"
+        },
+        {
+          "type": "narrator",
+          "text": "His heart is too full. Is he finally going to tell her?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Night 3, cold blue; Nastenka beaming on the bench, an hour early",
+          "graphic": "Hook text; Night 3 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "She squeezes his hand hard; he winces",
+          "graphic": "Caption: 'what a friend you are!'"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer smiles stiffly",
+          "graphic": "Handwritten thought: 'not fallen in love...'"
+        },
+        {
+          "sec": 5,
+          "visual": "Violet daydream she describes: her wedding, the Dreamer as a brother beside them",
+          "graphic": "Split screen: her dream / his face"
+        },
+        {
+          "sec": 6,
+          "visual": "His face: sadness and a strange laugh",
+          "graphic": "Caption: 'horribly sad'"
+        },
+        {
+          "sec": 6,
+          "visual": "Footsteps; a dark figure approaches through the mist",
+          "graphic": "Sound-wave graphic"
+        },
+        {
+          "sec": 6,
+          "visual": "He drops her hand and steps back; she gasps",
+          "graphic": "Freeze frame"
+        },
+        {
+          "sec": 6,
+          "visual": "The figure passes: a stranger",
+          "graphic": "Caption: 'it was not he'"
+        },
+        {
+          "sec": 6,
+          "visual": "She takes his hand again, cheerful",
+          "graphic": "Caption: 'how fond we are of each other'"
+        },
+        {
+          "sec": 6,
+          "visual": "Close-up: her cold hand in his burning hand, blue vs gold glow",
+          "graphic": "Handwritten thought: 'How blind you are'"
+        },
+        {
+          "sec": 6,
+          "visual": "The Dreamer looks at her, about to speak",
+          "graphic": "Gold quote card; swipe arrow 'Part 27'"
+        }
+      ],
+      "gold_quote": "Oh, how unbearable a happy person is sometimes!",
+      "engagement": "Worst compliment you've ever received from a crush?",
+      "cliffhanger": "His heart is too full. Is he finally going to tell her?",
+      "duration_sec": 62
+    },
+    {
+      "part": 27,
+      "section": "Third Night",
+      "lines": "1261-1302",
+      "title": "Eleven O'Clock",
+      "hook_text": "One cruel sentence. He regretted it instantly.",
+      "hook_vo": "“Listen, Nastenka!” I cried. “Do you know how it has been with me all day.”",
+      "script": [
+        {
+          "type": "book",
+          "text": "“Listen, Nastenka!” I cried. “Do you know how it has been with me all day.”"
+        },
+        {
+          "type": "book",
+          "text": "I woke an hour before our appointment, and yet, as it were, I had not been asleep."
+        },
+        {
+          "type": "book",
+          "text": "feeling as though one minute must go on for all eternity, and as though all life had come to a standstill for me."
+        },
+        {
+          "type": "book",
+          "text": "“Oh my goodness, my goodness,” Nastenka interrupted, “what does all that mean? I don’t understand a word.”"
+        },
+        {
+          "type": "book",
+          "text": "“Leave off. Hush!” she said, and in one instant the sly puss had guessed."
+        },
+        {
+          "type": "narrator",
+          "text": "Instead of answering, she starts flirting."
+        },
+        {
+          "type": "book",
+          "text": "I feel a little vexed that you are not in love with me?"
+        },
+        {
+          "type": "book",
+          "text": "But all the same, Mr. Unapproachable, you cannot blame me for being so simple;"
+        },
+        {
+          "type": "narrator",
+          "text": "Stung, he strikes back."
+        },
+        {
+          "type": "book",
+          "text": "“Listen! That’s eleven, I believe,” I said as the slow chime of a bell rang out from a distant tower."
+        },
+        {
+          "type": "book",
+          "text": "She suddenly stopped, left off laughing and began to count."
+        },
+        {
+          "type": "book",
+          "text": "“Yes, it’s eleven,” she said at last in a timid, uncertain voice."
+        },
+        {
+          "type": "narrator",
+          "text": "Eleven. An hour late. Is her lover ever coming?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Dreamer turns to her, words bursting out",
+          "graphic": "Hook text; Night 3 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "Violet: his bed at dusk, him lying awake, a clock frozen",
+          "graphic": "Clock hands stopped"
+        },
+        {
+          "sec": 5,
+          "visual": "A melody drawn as golden lines winds around his heart",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka, puzzled, laughing",
+          "graphic": "Caption: 'I don't understand a word'"
+        },
+        {
+          "sec": 6,
+          "visual": "She narrows her eyes, then looks away fast",
+          "graphic": "Handwritten: 'the sly puss had guessed'"
+        },
+        {
+          "sec": 6,
+          "visual": "She takes his arm, giggling, swinging it",
+          "graphic": "Sparkle overlay"
+        },
+        {
+          "sec": 6,
+          "visual": "She teases him",
+          "graphic": "Name card: 'Mr. Unapproachable'"
+        },
+        {
+          "sec": 6,
+          "visual": "His jaw tightens",
+          "graphic": "Handwritten thought: 'a spiteful impulse'"
+        },
+        {
+          "sec": 6,
+          "visual": "A distant bell tower strikes",
+          "graphic": "Timer: 23:00, bell rings counted 1 to 11"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka stops laughing and counts on her fingers",
+          "graphic": "Counter 9... 10... 11"
+        },
+        {
+          "sec": 6,
+          "visual": "Her face falls; the Dreamer instantly regrets it",
+          "graphic": "Swipe arrow 'Part 28'"
+        }
+      ],
+      "gold_quote": "feeling as though one minute must go on for all eternity",
+      "engagement": "Was the Dreamer cruel here, or just human? Defend your answer.",
+      "cliffhanger": "Eleven. An hour late. Is her lover ever coming?",
+      "duration_sec": 63
+    },
+    {
+      "part": 28,
+      "section": "Third Night",
+      "lines": "1303-1345",
+      "title": "'Why Isn't He You?'",
+      "hook_text": "She compared them. Out loud.",
+      "hook_vo": "He is not as good as you, though I love him more than you.",
+      "script": [
+        {
+          "type": "book",
+          "text": "He is not as good as you, though I love him more than you."
+        },
+        {
+          "type": "narrator",
+          "text": "Ashamed, the Dreamer invents every excuse for the missing lover."
+        },
+        {
+          "type": "book",
+          "text": "No one could have been easier to deceive than she was at that moment;"
+        },
+        {
+          "type": "book",
+          "text": "he can scarcely have received the letter;"
+        },
+        {
+          "type": "book",
+          "text": "Consider, there are thousands of possibilities;"
+        },
+        {
+          "type": "narrator",
+          "text": "She agrees, and gives him her address. Then he looks at her."
+        },
+        {
+          "type": "book",
+          "text": "I looked into her eyes — yes, she was crying."
+        },
+        {
+          "type": "book",
+          "text": "“I was thinking about you,” she said after a minute’s silence. “You are so kind that I should be a stone if I did not feel it."
+        },
+        {
+          "type": "book",
+          "text": "I was comparing you two. Why isn’t he you? Why isn’t he like you?"
+        },
+        {
+          "type": "book",
+          "text": "I made no answer."
+        },
+        {
+          "type": "book",
+          "text": "it shows that you love him more than anything in the world, and far more than yourself."
+        },
+        {
+          "type": "narrator",
+          "text": "She loves him more. But she is starting to sense what the Dreamer is giving up."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Nastenka's face close-up, eyes wet",
+          "graphic": "Hook text; Night 3 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer talking fast, gesturing toward the city",
+          "graphic": "Handwritten list: 'not received / not home / will answer'"
+        },
+        {
+          "sec": 5,
+          "visual": "She nods eagerly, clinging to every excuse",
+          "graphic": "Caption: 'easier to deceive'"
+        },
+        {
+          "sec": 5,
+          "visual": "A floating envelope icon wanders through Petersburg streets",
+          "graphic": "Caption: 'thousands of possibilities'"
+        },
+        {
+          "sec": 5,
+          "visual": "She recites her address; he repeats it",
+          "graphic": "Map pin: 'Her house'"
+        },
+        {
+          "sec": 5,
+          "visual": "He looks into her eyes; a tear falls",
+          "graphic": "Caption: 'she was crying'"
+        },
+        {
+          "sec": 5,
+          "visual": "She turns to him, quiet and sincere",
+          "graphic": "Handwritten: 'I should be a stone'"
+        },
+        {
+          "sec": 5,
+          "visual": "Split screen: the grave, proud lodger / the gentle Dreamer",
+          "graphic": "Split screen with a gold '?' between"
+        },
+        {
+          "sec": 5,
+          "visual": "Close on Nastenka",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer silent, swallowing",
+          "graphic": "Handwritten thought: 'I made no answer'"
+        },
+        {
+          "sec": 5,
+          "visual": "He forces a kind smile",
+          "graphic": "Swipe arrow 'Part 29'"
+        }
+      ],
+      "gold_quote": "Why isn’t he you? Why isn’t he like you?",
+      "engagement": "'He's not as good as you, but I love him more.' Have you ever said this, or heard it?",
+      "cliffhanger": "She loves him more. But she is starting to sense what the Dreamer is giving up.",
+      "duration_sec": 55
+    },
+    {
+      "part": 29,
+      "section": "Third Night",
+      "lines": "1346-1396",
+      "title": "'We Shall Always Be Together'",
+      "hook_text": "She knows he's sacrificing something.",
+      "hook_vo": "it seems to me that you are sacrificing something for me,",
+      "script": [
+        {
+          "type": "book",
+          "text": "it seems to me that you are sacrificing something for me,"
+        },
+        {
+          "type": "book",
+          "text": "Tell me, how is it that we can’t all be like brothers together?"
+        },
+        {
+          "type": "book",
+          "text": "Why not say straight out what is in one’s heart, when one knows that one is not speaking idly?"
+        },
+        {
+          "type": "book",
+          "text": "You are recovering, you are quite a different man from what you described. If you ever fall in love with some one, God give you happiness with her!"
+        },
+        {
+          "type": "narrator",
+          "text": "Still no lover. It is late."
+        },
+        {
+          "type": "book",
+          "text": "“He will come to-morrow,” I said in the most firm and convincing tone."
+        },
+        {
+          "type": "book",
+          "text": "And then when we parted she gave me her hand and said, looking at me candidly: “We shall always be together, shan’t we?”"
+        },
+        {
+          "type": "book",
+          "text": "Oh, Nastenka, Nastenka! If only you knew how lonely I am now!"
+        },
+        {
+          "type": "narrator",
+          "text": "Next day: rain. She doesn't come. He walks to her street, then turns back at her door."
+        },
+        {
+          "type": "book",
+          "text": "But to-morrow, to-morrow! To-morrow she will tell me everything."
+        },
+        {
+          "type": "book",
+          "text": "They are together by now. . . ."
+        },
+        {
+          "type": "narrator",
+          "text": "Is he right? Night 4 will answer everything."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Nastenka glances at him timidly",
+          "graphic": "Hook text; Night 3 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "She opens her arms wide toward the sleeping city",
+          "graphic": "Handwritten: 'like brothers together?'"
+        },
+        {
+          "sec": 5,
+          "visual": "People behind lit windows, each hiding something",
+          "graphic": "Caption: 'say straight out what is in one's heart'"
+        },
+        {
+          "sec": 5,
+          "visual": "She presses his hand warmly",
+          "graphic": "Handwritten: 'you are recovering'"
+        },
+        {
+          "sec": 5,
+          "visual": "Clock: very late; the street empty",
+          "graphic": "Timer passes midnight"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer, firm and convincing",
+          "graphic": "Caption: 'He will come to-morrow'"
+        },
+        {
+          "sec": 6,
+          "visual": "She smiles candidly, giving him her hand",
+          "graphic": "Speech bubble: 'We shall always be together'"
+        },
+        {
+          "sec": 6,
+          "visual": "Grey rainy day: the Dreamer alone at the bench",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "He walks to her door, stops two steps short, turns back",
+          "graphic": "Map pin: 'Her house' fades"
+        },
+        {
+          "sec": 6,
+          "visual": "He sits in his dark room watching the rain",
+          "graphic": "Handwritten: 'To-morrow she will tell me everything'"
+        },
+        {
+          "sec": 6,
+          "visual": "Moon tracker swells toward full",
+          "graphic": "Swipe arrow 'Part 30'"
+        }
+      ],
+      "gold_quote": "Oh, Nastenka, Nastenka! If only you knew how lonely I am now!",
+      "engagement": "Why do we hide what's in our hearts? Answer Nastenka's question.",
+      "cliffhanger": "Is he right? Night 4 will answer everything.",
+      "duration_sec": 61
+    },
+    {
+      "part": 30,
+      "section": "Fourth Night",
+      "lines": "1397-1450",
+      "title": "No Letter",
+      "hook_text": "Night 4. He arrives empty-handed.",
+      "hook_vo": "My God, how it has all ended! What it has all ended in!",
+      "script": [
+        {
+          "type": "book",
+          "text": "My God, how it has all ended! What it has all ended in!"
+        },
+        {
+          "type": "book",
+          "text": "she was standing as she had been that first time, with her elbows on the railing,"
+        },
+        {
+          "type": "book",
+          "text": "Well, where is the letter? Have you brought the letter?"
+        },
+        {
+          "type": "book",
+          "text": "“No, there is no letter,” I said at last. “Hasn’t he been to you yet?”"
+        },
+        {
+          "type": "book",
+          "text": "She turned fearfully pale and looked at me for a long time without moving. I had shattered her last hope."
+        },
+        {
+          "type": "book",
+          "text": "“Well, God be with him,” she said at last in a breaking voice; “God be with him if he leaves me like that.”"
+        },
+        {
+          "type": "book",
+          "text": "And not a line, not a line! He might at least have written that he does not want me, that he rejects me — but not a line for three days!"
+        },
+        {
+          "type": "book",
+          "text": "When I think that I was the first to go to him, that I humbled myself before him, cried, that I begged of him a little love!"
+        },
+        {
+          "type": "narrator",
+          "text": "She is falling apart. And the Dreamer is about to make it worse, or better."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Full moon over the canal; Nastenka at the railing exactly as on Night 1",
+          "graphic": "Hook text; Night 4 of 4 moon tracker (full)"
+        },
+        {
+          "sec": 5,
+          "visual": "Split screen: Night 1 railing shot / Night 4 railing shot",
+          "graphic": "Caption: 'as she had been that first time'"
+        },
+        {
+          "sec": 5,
+          "visual": "She whirls round, eager",
+          "graphic": "Caption: 'Have you brought the letter?'"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer's empty hands",
+          "graphic": "Envelope icon crossed out"
+        },
+        {
+          "sec": 5,
+          "visual": "Colour drains from her face",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "She turns away; shoulders shake",
+          "graphic": "Handwritten: 'God be with him'"
+        },
+        {
+          "sec": 6,
+          "visual": "Rain-like tears falling into the canal",
+          "graphic": "Counter: 'Days of silence: 3'"
+        },
+        {
+          "sec": 6,
+          "visual": "Amber flashback: her climbing the stairs with the bundle",
+          "graphic": "Amber blur border"
+        },
+        {
+          "sec": 6,
+          "visual": "She grips the railing, eyes flashing",
+          "graphic": "Caption: 'not a line!'"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer helpless beside her, hand half-raised",
+          "graphic": "Handwritten thought: 'what was I to say?'"
+        },
+        {
+          "sec": 6,
+          "visual": "He takes a deep breath, decision forming",
+          "graphic": "Swipe arrow 'Part 31'"
+        }
+      ],
+      "gold_quote": "I had shattered her last hope.",
+      "engagement": "Silence for 3 days after a love letter. Is no reply its own answer?",
+      "cliffhanger": "She is falling apart. And the Dreamer is about to make it worse, or better.",
+      "duration_sec": 61
+    },
+    {
+      "part": 31,
+      "section": "Fourth Night",
+      "lines": "1451-1503",
+      "title": "'I Love You, Nastenka'",
+      "hook_text": "Four nights. One rule. He's about to break it.",
+      "hook_vo": "Four nights ago, she made him promise not to fall in love. Tonight, he breaks it.",
+      "script": [
+        {
+          "type": "narrator",
+          "text": "Four nights ago, she made him promise not to fall in love. Tonight, he breaks it."
+        },
+        {
+          "type": "narrator",
+          "text": "He offers to go to the man himself. She refuses."
+        },
+        {
+          "type": "book",
+          "text": "I don’t know him; I don’t love him any more. I will . . . forget him."
+        },
+        {
+          "type": "book",
+          "text": "Tell me: you wouldn’t have behaved like this, would you? You would not have abandoned a girl who had come to you of herself,"
+        },
+        {
+          "type": "book",
+          "text": "Nastenka, you torture me! You wound my heart, you are killing me, Nastenka! I cannot be silent!"
+        },
+        {
+          "type": "book",
+          "text": "What I am going to say to you now is all nonsense, all impossible, all stupid! I know that this can never be, but I cannot be silent."
+        },
+        {
+          "type": "book",
+          "text": "“What is it? What is it?” she said drying her tears and looking at me intently,"
+        },
+        {
+          "type": "book",
+          "text": "It’s impossible, but I love you, Nastenka! There it is! Now everything is told,"
+        },
+        {
+          "type": "narrator",
+          "text": "He has said it. Now, how will she react?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 4,
+          "visual": "Gold rule card from Part 7 reappears: 'Don't fall in love with me'",
+          "graphic": "Hook text; Night 4 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "The rule card cracks down the middle",
+          "graphic": "Crack graphic"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer offering to go; Nastenka shaking her head",
+          "graphic": "Caption: 'forget him'"
+        },
+        {
+          "sec": 5,
+          "visual": "She sits on the bench, taking his hand",
+          "graphic": "Handwritten: 'you wouldn't have behaved like this?'"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer stands abruptly",
+          "graphic": "Heartbeat pulse ring growing"
+        },
+        {
+          "sec": 5,
+          "visual": "His face torn between fear and resolve",
+          "graphic": "Caption: 'I cannot be silent!'"
+        },
+        {
+          "sec": 5,
+          "visual": "She dries her tears, staring at him",
+          "graphic": "Handwritten: 'What is it?'"
+        },
+        {
+          "sec": 5,
+          "visual": "Everything drops away: two figures, one gold light, silent music",
+          "graphic": "Black frame"
+        },
+        {
+          "sec": 5,
+          "visual": "He says it",
+          "graphic": "Gold quote card, full screen"
+        },
+        {
+          "sec": 5,
+          "visual": "He waves his hand, exhausted, defiant",
+          "graphic": "Caption: 'Now everything is told'"
+        },
+        {
+          "sec": 5,
+          "visual": "Nastenka's eyes, wide and unreadable",
+          "graphic": "Swipe arrow 'Part 32'"
+        }
+      ],
+      "gold_quote": "It’s impossible, but I love you, Nastenka!",
+      "engagement": "Should he have stayed silent to protect the friendship? Yes or no.",
+      "cliffhanger": "He has said it. Now, how will she react?",
+      "duration_sec": 54
+    },
+    {
+      "part": 32,
+      "section": "Fourth Night",
+      "lines": "1504-1562",
+      "title": "A Grateful Heart",
+      "hook_text": "Her answer: 'I knew. Long ago.'",
+      "hook_vo": "What of it? I knew you loved me long ago, only I always thought that you simply liked me very much.",
+      "script": [
+        {
+          "type": "book",
+          "text": "What of it? I knew you loved me long ago, only I always thought that you simply liked me very much."
+        },
+        {
+          "type": "book",
+          "text": "I am just in the same position as you were when you went to him with your bundle."
+        },
+        {
+          "type": "book",
+          "text": "Here my tears are falling, Nastenka. Let them flow, let them flow — they don’t hurt anybody. They will dry, Nastenka."
+        },
+        {
+          "type": "narrator",
+          "text": "He means to leave and never see her again. But first:"
+        },
+        {
+          "type": "book",
+          "text": "I thought that you . . . I thought that you somehow . . . quite apart from me, had ceased to love him."
+        },
+        {
+          "type": "book",
+          "text": "only I would love you, I would love you so, that even if you still loved him, even if you went on loving the man I don’t know, you would never feel that my love was a burden to you."
+        },
+        {
+          "type": "book",
+          "text": "You would only feel every minute that at your side was beating a grateful, grateful heart,"
+        },
+        {
+          "type": "book",
+          "text": "Oh Nastenka, Nastenka! What have you done to me?"
+        },
+        {
+          "type": "narrator",
+          "text": "She stands, wiping her tears. She has made up her mind. What will she say?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Nastenka, flustered, cheeks flaming",
+          "graphic": "Hook text; Night 4 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "Split screen: her with the bundle at the lodger's door / him on the bench",
+          "graphic": "Split screen, amber vs blue"
+        },
+        {
+          "sec": 5,
+          "visual": "Tears run down the Dreamer's face; he doesn't wipe them",
+          "graphic": "Caption: 'Let them flow'"
+        },
+        {
+          "sec": 5,
+          "visual": "He steps back as if to leave",
+          "graphic": "Handwritten: 'you cannot see me again'"
+        },
+        {
+          "sec": 5,
+          "visual": "She grabs his sleeve",
+          "graphic": "Caption: 'I don't drive you away'"
+        },
+        {
+          "sec": 6,
+          "visual": "Violet daydream: Nastenka slowly turning away from a shadowy lodger",
+          "graphic": "Handwritten thought: 'ceased to love him'"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer speaks, open-hearted",
+          "graphic": "Caption: 'I would love you so'"
+        },
+        {
+          "sec": 6,
+          "visual": "A small gold heart beating beside her figure",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka listening, hand over mouth",
+          "graphic": "Handwritten: 'never a burden'"
+        },
+        {
+          "sec": 6,
+          "visual": "He breaks down",
+          "graphic": "Caption: 'What have you done to me?'"
+        },
+        {
+          "sec": 6,
+          "visual": "She rises from the bench, drying her eyes with a handkerchief",
+          "graphic": "Swipe arrow 'Part 33'"
+        }
+      ],
+      "gold_quote": "at your side was beating a grateful, grateful heart",
+      "engagement": "Can you love someone who still loves somebody else? Honestly.",
+      "cliffhanger": "She stands, wiping her tears. She has made up her mind. What will she say?",
+      "duration_sec": 61
+    },
+    {
+      "part": 33,
+      "section": "Fourth Night",
+      "lines": "1563-1625",
+      "title": "Will You Take My Hand?",
+      "hook_text": "She asked him one thing: can you wait?",
+      "hook_vo": "Stay, listen to me: can you wait?",
+      "script": [
+        {
+          "type": "book",
+          "text": "Stay, listen to me: can you wait?"
+        },
+        {
+          "type": "narrator",
+          "text": "He had tried to leave. She stopped him."
+        },
+        {
+          "type": "book",
+          "text": "I love him; but I shall get over it, I must get over it, I cannot fail to get over it;"
+        },
+        {
+          "type": "book",
+          "text": "for you love me while he has never loved me, for in fact, I love you myself. . . . Yes, I love you!"
+        },
+        {
+          "type": "book",
+          "text": "she laid her head upon my shoulder, then upon my bosom, and wept bitterly."
+        },
+        {
+          "type": "book",
+          "text": "I have loved him for a whole year, and I swear by God that I have never, never, even in thought, been unfaithful to him."
+        },
+        {
+          "type": "book",
+          "text": "for I can only love what is magnanimous, what understands me, what is generous;"
+        },
+        {
+          "type": "book",
+          "text": "if you are ready to love me always as you do now — I swear to you that gratitude . . . that my love will be at last worthy of your love. . . . Will you take my hand?"
+        },
+        {
+          "type": "book",
+          "text": "“Nastenka!” I cried breathless with sobs. “Nastenka, oh Nastenka!”"
+        },
+        {
+          "type": "narrator",
+          "text": "The Dreamer finally has a real life. How long can it last?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Nastenka catches his arm as he turns",
+          "graphic": "Hook text; Night 4 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "Her face: determination through tears",
+          "graphic": "Caption: 'can you wait?'"
+        },
+        {
+          "sec": 5,
+          "visual": "She speaks fast, half to herself",
+          "graphic": "Handwritten: 'I am getting over it'"
+        },
+        {
+          "sec": 5,
+          "visual": "A shadowy lodger figure dissolves into mist",
+          "graphic": "Particle dissolve"
+        },
+        {
+          "sec": 5,
+          "visual": "She looks straight at the Dreamer",
+          "graphic": "Gold caption: 'Yes, I love you!'"
+        },
+        {
+          "sec": 5,
+          "visual": "She lays her head on his shoulder, sobbing",
+          "graphic": "Warm gold light enters the blue for the first time"
+        },
+        {
+          "sec": 6,
+          "visual": "Amber memory flash: a year of waiting by the window",
+          "graphic": "Counter: '1 year faithful'"
+        },
+        {
+          "sec": 6,
+          "visual": "Present: they walk on slowly, she grips his hand",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "She stops and holds out her hand",
+          "graphic": "Caption: 'Will you take my hand?'"
+        },
+        {
+          "sec": 6,
+          "visual": "Close-up: he takes it, sobbing",
+          "graphic": "Hand-clasp glow"
+        },
+        {
+          "sec": 6,
+          "visual": "Wide: two figures under a full moon, the canal shimmering",
+          "graphic": "Swipe arrow 'Part 34'"
+        }
+      ],
+      "gold_quote": "for I can only love what is magnanimous, what understands me, what is generous",
+      "engagement": "Gratitude or love? Which one is she really offering him?",
+      "cliffhanger": "The Dreamer finally has a real life. How long can it last?",
+      "duration_sec": 60
+    },
+    {
+      "part": 34,
+      "section": "Fourth Night",
+      "lines": "1626-1715",
+      "title": "Planning Forever",
+      "hook_text": "Twelve hundred roubles and a blind granny.",
+      "hook_vo": "we laughed, we wept, we said thousands of things meaningless and incoherent;",
+      "script": [
+        {
+          "type": "book",
+          "text": "we laughed, we wept, we said thousands of things meaningless and incoherent;"
+        },
+        {
+          "type": "book",
+          "text": "we were like children."
+        },
+        {
+          "type": "book",
+          "text": "I am poor, I have only got twelve hundred roubles, but that doesn’t matter."
+        },
+        {
+          "type": "book",
+          "text": "Of course not, and granny has her pension, so she will be no burden. We must take granny."
+        },
+        {
+          "type": "book",
+          "text": "Of course we must take granny. But there’s Matrona."
+        },
+        {
+          "type": "narrator",
+          "text": "He will rent the empty room upstairs, just like the last lodger."
+        },
+        {
+          "type": "book",
+          "text": "So by to-morrow you will be my lodger."
+        },
+        {
+          "type": "book",
+          "text": "And we will go to The Barber of Seville, for they are soon going to give it again."
+        },
+        {
+          "type": "book",
+          "text": "“Yes, we’ll go,” said Nastenka, “but better see something else and not The Barber of Seville.”"
+        },
+        {
+          "type": "narrator",
+          "text": "They wander in a happy daze. At last he walks her home."
+        },
+        {
+          "type": "book",
+          "text": "Look at the sky, Nastenka. Look! To-morrow it will be a lovely day; what a blue sky, what a moon!"
+        },
+        {
+          "type": "book",
+          "text": "But Nastenka did not look at the cloud; she stood mute as though turned to stone;"
+        },
+        {
+          "type": "narrator",
+          "text": "Something has frozen her. What did she just see?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "They run laughing across a bridge, then double back",
+          "graphic": "Hook text; Night 4 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "Fast-motion: crossing roads, turning back, embankment again",
+          "graphic": "Caption: 'like children'"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer turns out his coat pockets, grinning",
+          "graphic": "Counter: '1,200 roubles'"
+        },
+        {
+          "sec": 5,
+          "visual": "Nastenka ticks off fingers",
+          "graphic": "Name card: 'Granny (coming with us)'"
+        },
+        {
+          "sec": 6,
+          "visual": "Comic inset: Matrona and Fekla side by side, unimpressed",
+          "graphic": "Name cards: 'Matrona' / 'Fekla'"
+        },
+        {
+          "sec": 6,
+          "visual": "The little wooden house; a light in the empty top floor",
+          "graphic": "Caption: 'my lodger'"
+        },
+        {
+          "sec": 6,
+          "visual": "He mimes an opera flourish",
+          "graphic": "Ticket graphic: 'The Barber of Seville' crossed out"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka's smile wavers for one beat",
+          "graphic": "Handwritten thought: 'something else'"
+        },
+        {
+          "sec": 6,
+          "visual": "Wide: two figures wandering under the white-night sky",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "Dreamer points up at the moon as a yellow cloud passes",
+          "graphic": "Caption: 'Look, look!'"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka not looking up, frozen, staring down the street",
+          "graphic": "Swipe arrow 'Part 35'"
+        }
+      ],
+      "gold_quote": "we were like children.",
+      "engagement": "Notice she doesn't want to see The Barber of Seville. What does that tell you?",
+      "cliffhanger": "Something has frozen her. What did she just see?",
+      "duration_sec": 62
+    },
+    {
+      "part": 35,
+      "section": "Fourth Night",
+      "lines": "1716-1733",
+      "title": "It's He",
+      "hook_text": "The man she waited a year for. Right now.",
+      "hook_vo": "At that moment a young man passed by us.",
+      "script": [
+        {
+          "type": "book",
+          "text": "At that moment a young man passed by us."
+        },
+        {
+          "type": "book",
+          "text": "He suddenly stopped, looked at us intently, and then again took a few steps on. My heart began throbbing."
+        },
+        {
+          "type": "book",
+          "text": "“Who is it, Nastenka?” I said in an undertone."
+        },
+        {
+          "type": "book",
+          "text": "“It’s he,” she answered in a whisper,"
+        },
+        {
+          "type": "book",
+          "text": "huddling up to me, still more closely, still more tremulously. . . . I could hardly stand on my feet."
+        },
+        {
+          "type": "book",
+          "text": "Nastenka, Nastenka! It’s you!"
+        },
+        {
+          "type": "book",
+          "text": "My God, how she cried out! How she started! How she tore herself out of my arms and rushed to meet him! I stood and looked at them, utterly crushed."
+        },
+        {
+          "type": "book",
+          "text": "she turned to me again, was beside me again in a flash, and before I knew where I was she threw both arms round my neck and gave me a warm, tender kiss."
+        },
+        {
+          "type": "book",
+          "text": "Then, without saying a word to me, she rushed back to him again, took his hand, and drew him after her."
+        },
+        {
+          "type": "book",
+          "text": "I stood a long time looking after them. At last the two vanished from my sight."
+        },
+        {
+          "type": "narrator",
+          "text": "Not a word. Just a kiss. Will she ever explain?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "A young man in a travelling coat walks past them under a lamp",
+          "graphic": "Hook text; Night 4 of 4 moon tracker"
+        },
+        {
+          "sec": 5,
+          "visual": "He stops, turns, stares",
+          "graphic": "Name card: 'The Lodger'"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka trembling, pressed to the Dreamer",
+          "graphic": "Heartbeat pulse ring"
+        },
+        {
+          "sec": 6,
+          "visual": "Her lips form the words",
+          "graphic": "Caption: 'It's he'"
+        },
+        {
+          "sec": 6,
+          "visual": "The Dreamer's knees buckle slightly",
+          "graphic": "Handwritten thought: 'I could hardly stand'"
+        },
+        {
+          "sec": 6,
+          "visual": "The lodger steps forward calling her name",
+          "graphic": "Speech bubble: 'Nastenka!'"
+        },
+        {
+          "sec": 6,
+          "visual": "Slow motion: she tears herself from the Dreamer's arms and runs",
+          "graphic": "Motion streak in gold"
+        },
+        {
+          "sec": 6,
+          "visual": "She stops, runs back, throws her arms round the Dreamer and kisses him",
+          "graphic": "Freeze frame, soft glow"
+        },
+        {
+          "sec": 6,
+          "visual": "She runs back again, takes the lodger's hand, pulls him away",
+          "graphic": "Split screen: the couple / the Dreamer"
+        },
+        {
+          "sec": 6,
+          "visual": "The couple shrink into the white-night mist",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "The Dreamer alone on the empty bridge; full moon above",
+          "graphic": "Swipe arrow 'Part 36'"
+        }
+      ],
+      "gold_quote": "I stood a long time looking after them. At last the two vanished from my sight.",
+      "engagement": "That kiss: goodbye, thank you, or something else?",
+      "cliffhanger": "Not a word. Just a kiss. Will she ever explain?",
+      "duration_sec": 64
+    },
+    {
+      "part": 36,
+      "section": "Morning",
+      "lines": "1734-1785",
+      "title": "The Letter",
+      "hook_text": "The morning after. A letter from her.",
+      "hook_vo": "My night ended with the morning.",
+      "script": [
+        {
+          "type": "book",
+          "text": "My night ended with the morning."
+        },
+        {
+          "type": "book",
+          "text": "It was a wet day. The rain was falling and beating disconsolately upon my window pane;"
+        },
+        {
+          "type": "book",
+          "text": "“There’s a letter for you, sir; the postman brought it,” Matrona said stooping over me."
+        },
+        {
+          "type": "book",
+          "text": "I broke the seal. It was from her!"
+        },
+        {
+          "type": "book",
+          "text": "Oh, forgive me, forgive me! I beg you on my knees to forgive me! I deceived you and myself. It was a dream, a mirage. . . ."
+        },
+        {
+          "type": "book",
+          "text": "Oh, my God! If only I could love you both at once! Oh, if only you were he!"
+        },
+        {
+          "type": "book",
+          "text": "“Oh, if only he were you,” echoed in my mind."
+        },
+        {
+          "type": "book",
+          "text": "For it will live in my memory like a sweet dream which lingers long after awakening;"
+        },
+        {
+          "type": "book",
+          "text": "Next week I am to be married to him. He has come back in love, he has never forgotten me."
+        },
+        {
+          "type": "book",
+          "text": "Forgive me, remember and love your “NASTENKA.”"
+        },
+        {
+          "type": "book",
+          "text": "I read that letter over and over again for a long time; tears gushed to my eyes."
+        },
+        {
+          "type": "narrator",
+          "text": "Married next week. So what is left for the Dreamer, and can he forgive her?"
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Moon tracker turns into a pale sunrise; rain on his window",
+          "graphic": "Hook text; Morning moon tracker (sunrise)"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer slumped in a chair, feverish, grey light",
+          "graphic": "Caption: 'a wet day'"
+        },
+        {
+          "sec": 5,
+          "visual": "Matrona stoops over him holding an envelope",
+          "graphic": "Name card: 'Matrona'"
+        },
+        {
+          "sec": 6,
+          "visual": "He breaks the wax seal",
+          "graphic": "Wax seal cracks"
+        },
+        {
+          "sec": 6,
+          "visual": "Nastenka's handwriting fills the screen as it is read",
+          "graphic": "Letter appearing in handwriting"
+        },
+        {
+          "sec": 6,
+          "visual": "Violet inset: Nastenka kneeling, pleading",
+          "graphic": "Handwritten: 'forgive me'"
+        },
+        {
+          "sec": 6,
+          "visual": "Split screen: the Dreamer / the lodger, merging and separating",
+          "graphic": "Handwritten: 'if only you were he' / 'if only he were you'"
+        },
+        {
+          "sec": 6,
+          "visual": "Amber flash of the four nights on the canal, softly fading",
+          "graphic": "Gold quote card"
+        },
+        {
+          "sec": 6,
+          "visual": "A wedding ring drawn in gold handwriting",
+          "graphic": "Calendar: 'Next week'"
+        },
+        {
+          "sec": 6,
+          "visual": "Signature appears: NASTENKA",
+          "graphic": "Signature flourish"
+        },
+        {
+          "sec": 6,
+          "visual": "The letter falls from his hands; he hides his face",
+          "graphic": "Swipe arrow 'Part 37 (Finale)'"
+        }
+      ],
+      "gold_quote": "like a sweet dream which lingers long after awakening",
+      "engagement": "Was Nastenka cruel or honest? Defend her, or don't.",
+      "cliffhanger": "Married next week. So what is left for the Dreamer, and can he forgive her?",
+      "duration_sec": 63
+    },
+    {
+      "part": 37,
+      "section": "Morning",
+      "lines": "1786-1820",
+      "title": "A Whole Moment of Happiness",
+      "hook_text": "The last line of this book will wreck you.",
+      "hook_vo": "I have taken all the cobwebs off the ceiling; you can have a wedding or give a party.",
+      "script": [
+        {
+          "type": "book",
+          "text": "I have taken all the cobwebs off the ceiling; you can have a wedding or give a party."
+        },
+        {
+          "type": "narrator",
+          "text": "Matrona means well. But as he looks at her, everything ages."
+        },
+        {
+          "type": "book",
+          "text": "I don’t know why I suddenly pictured my room grown old like Matrona."
+        },
+        {
+          "type": "book",
+          "text": "I saw myself just as I was now, fifteen years hence, older, in the same room, just as solitary, with the same Matrona grown no cleverer for those fifteen years."
+        },
+        {
+          "type": "narrator",
+          "text": "And yet, no bitterness."
+        },
+        {
+          "type": "book",
+          "text": "But to imagine that I should bear you a grudge, Nastenka!"
+        },
+        {
+          "type": "book",
+          "text": "Oh never, never! May your sky be clear, may your sweet smile be bright and untroubled, and may you be blessed for that moment of blissful happiness which you gave to another, lonely and grateful heart!"
+        },
+        {
+          "type": "book",
+          "text": "My God, a whole moment of happiness! Is that too little for the whole of a man’s life?"
+        },
+        {
+          "type": "narrator",
+          "text": "Is it too little? Answer him in the comments, then go back to Part 1 and meet him on the canal again."
+        }
+      ],
+      "shots": [
+        {
+          "sec": 5,
+          "visual": "Matrona proudly shows the clean ceiling, broom in hand",
+          "graphic": "Hook text; Morning moon tracker (sunrise)"
+        },
+        {
+          "sec": 5,
+          "visual": "Dreamer looks at her blankly",
+          "graphic": "Caption: 'a wedding or give a party'"
+        },
+        {
+          "sec": 5,
+          "visual": "Time-lapse: Matrona's face wrinkles and stoops",
+          "graphic": "Ageing effect, years ticking"
+        },
+        {
+          "sec": 5,
+          "visual": "The room ages: walls discolour, cobwebs thicken",
+          "graphic": "Counter: '+15 years'"
+        },
+        {
+          "sec": 5,
+          "visual": "Through the window the yellow house opposite peels and cracks",
+          "graphic": "Callback caption: 'painted yellow' (Part 1)"
+        },
+        {
+          "sec": 5,
+          "visual": "Older Dreamer alone in the same chair",
+          "graphic": "Handwritten thought: 'just as solitary'"
+        },
+        {
+          "sec": 5,
+          "visual": "He shakes his head and straightens",
+          "graphic": "Caption: 'bear you a grudge? Never'"
+        },
+        {
+          "sec": 6,
+          "visual": "Violet: Nastenka at the altar, flowers in her dark hair",
+          "graphic": "Handwritten blessing: 'May your sky be clear'"
+        },
+        {
+          "sec": 6,
+          "visual": "Sunlight breaks through the rain onto his face",
+          "graphic": "Light slowly warms the frame"
+        },
+        {
+          "sec": 6,
+          "visual": "Black screen; the final line in gold, slow, held",
+          "graphic": "Gold quote card, full screen"
+        },
+        {
+          "sec": 6,
+          "visual": "The empty canal bench at dawn, full series moon tracker complete",
+          "graphic": "'The End' + 'Start again: Part 1' loop arrow"
+        }
+      ],
+      "gold_quote": "My God, a whole moment of happiness! Is that too little for the whole of a man’s life?",
+      "engagement": "One perfect moment that ends, or none at all? Which would you choose?",
+      "cliffhanger": "Is it too little? Answer him in the comments, then go back to Part 1 and meet him on the canal again.",
+      "duration_sec": 59
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+<title>White Nights Reel Lab</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: header, a row of phones looping each reel format (+ the real render), a voice playbook, then a swipe feed of the whole book beside a detail panel */
+:root{
+  --bg:#EEF0F5; --panel:#FFFFFF; --fg:#14161C; --muted:#5B6070; --line:#D9DCE6; --accent:#9A6B12; --accent-soft:#F4E7CB; --bezel:#111318;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Inter","Segoe UI",system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  --serif:"Cormorant Garamond",Georgia,serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0E1015;--panel:#161920;--fg:#E9EBF2;--muted:#9AA0B2;--line:#2A2F3B;--accent:#E2B45C;--accent-soft:#2E2617;--bezel:#05060A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0E1015;--panel:#161920;--fg:#E9EBF2;--muted:#9AA0B2;--line:#2A2F3B;--accent:#E2B45C;--accent-soft:#2E2617;--bezel:#05060A;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:1320px;margin:0 auto;padding-block:36px 72px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:30px}
+header{display:flex;flex-direction:column;gap:10px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(30px,5vw,48px);margin:0;letter-spacing:-.02em;text-wrap:balance}
+.lede{margin:0;color:var(--muted);max-width:72ch}
+section{display:flex;flex-direction:column;gap:18px}
+.sec-h{display:flex;flex-direction:column;gap:6px}
+.sec-h h2{font-family:var(--display);font-size:clamp(22px,3vw,30px);margin:0;letter-spacing:-.01em;text-wrap:balance}
+.sec-h p{margin:0;color:var(--muted);max-width:75ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:22px}
+.card{display:flex;flex-direction:column;gap:12px;min-width:0}
+.phone{background:var(--bezel);border-radius:30px;padding:8px;box-shadow:0 18px 40px rgba(10,20,40,.18)}
+.screen{position:relative;aspect-ratio:9/16;border-radius:23px;overflow:hidden;max-width:100%;background:#000}
+.screen svg.stage{position:absolute;inset:0;width:100%;height:100%;display:block}
+.screen video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.cap{position:absolute;left:7%;right:7%;bottom:10%;display:flex;flex-wrap:wrap;justify-content:center;gap:0 .3em;font-family:var(--body);font-weight:800;font-size:clamp(12px,1.25vw,15px);line-height:1.25;text-align:center;pointer-events:none}
+.cap.serif{font-family:var(--serif);font-weight:700;font-style:italic;font-size:clamp(14px,1.45vw,18px)}
+.cap.hand{font-family:"Caveat",cursive;font-weight:700;font-size:clamp(16px,1.7vw,21px)}
+.cap span{display:inline-block;animation:word .26s cubic-bezier(.2,1.5,.4,1) both;animation-delay:var(--d)}
+.cap.pill span{background:var(--capbg);color:var(--capfg);padding:2px 5px;border-radius:5px;margin:1px 0}
+.cap.plain span{color:var(--capfg);text-shadow:0 1px 3px rgba(0,0,0,.55)}
+@keyframes word{from{opacity:0;transform:translateY(7px) scale(.85)}}
+.bar{position:absolute;left:10px;right:10px;top:8px;display:flex;gap:3px;z-index:2}
+.bar i{flex:1;height:2.5px;border-radius:2px;background:rgba(255,255,255,.35);overflow:hidden;position:relative}
+.bar i b{position:absolute;inset:0;background:#fff;transform-origin:left;transform:scaleX(0)}
+.light .bar i{background:rgba(0,0,0,.15)} .light .bar i b{background:#141414}
+.ctrl{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.ctrl button,.btn{font:600 13px var(--body);color:var(--fg);background:var(--panel);border:1px solid var(--line);border-radius:99px;padding:6px 14px;cursor:pointer}
+.ctrl button:focus-visible,.btn:focus-visible,.chip:focus-visible,.screen:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tag{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.card h3{font-family:var(--display);font-size:20px;margin:0;line-height:1.15;text-wrap:balance}
+.card p{margin:0;font-size:14px;color:var(--muted)}
+.voice{display:flex;gap:8px;align-items:flex-start;background:var(--accent-soft);border-radius:10px;padding:8px 10px;font-size:13px;color:var(--fg)}
+.voice svg{flex:none;margin-top:2px}
+.voice b{font-weight:700}
+.real{position:absolute;left:8px;top:22px;z-index:3;font:700 10px var(--mono);letter-spacing:.06em;color:#14161C;background:#E2B45C;border-radius:6px;padding:3px 6px}
+.note{font-size:13px;color:var(--muted);max-width:80ch;margin:0}
+
+/* voice playbook */
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--panel)}
+table{border-collapse:collapse;width:100%;min-width:860px;font-size:14px}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:600 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:var(--bg)}
+tr:last-child td{border-bottom:0}
+td b{font-weight:700}
+.wpm{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.rule{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:4px}
+.rule h4{margin:0;font-family:var(--display);font-size:16px}
+.rule p{margin:0;font-size:14px;color:var(--muted)}
+
+.auds{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.aud{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.aud.pick{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.aud .top{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.aud b{font-family:var(--display);font-size:16px}
+.aud .fits{font:500 11px var(--mono);color:var(--accent);text-transform:uppercase;letter-spacing:.05em}
+.aud .sub{font-size:13px;color:var(--muted)}
+.aud audio{width:100%;height:36px}
+
+/* feed */
+.feed-wrap{display:grid;grid-template-columns:minmax(260px,340px) minmax(0,1fr);gap:28px;align-items:start}
+@media (max-width:760px){.feed-wrap{grid-template-columns:minmax(0,1fr)}.feed-phone{max-width:340px;margin:0 auto;width:100%}}
+.feed-phone .screen{background:#05060A}
+.feed{position:absolute;inset:0;overflow-y:auto;scroll-snap-type:y mandatory;scrollbar-width:none;overscroll-behavior:contain}
+.feed::-webkit-scrollbar{display:none}
+.reel{position:relative;height:100%;scroll-snap-align:start;scroll-snap-stop:always;overflow:hidden}
+.reel svg{position:absolute;inset:0;width:100%;height:100%}
+.reel .zoom{animation:none}
+.reel.on .zoom{animation:kenburns 6s ease-out both}
+@keyframes kenburns{from{transform:scale(1.18)}to{transform:scale(1)}}
+.reel .flash{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none}
+.reel.on .flash{animation:flash .5s ease-out .05s}
+@keyframes flash{0%{opacity:.55}100%{opacity:0}}
+.rp{position:absolute;left:10px;top:24px;font:700 10px var(--mono);letter-spacing:.06em;color:#fff;background:rgba(0,0,0,.45);border:1px solid rgba(255,255,255,.35);border-radius:6px;padding:3px 7px;z-index:2}
+.rsec{position:absolute;right:10px;top:24px;font:600 10px var(--mono);letter-spacing:.06em;color:#F3D48C;z-index:2;text-transform:uppercase}
+.hook{position:absolute;left:8%;right:8%;top:22%;display:flex;flex-wrap:wrap;justify-content:center;gap:.12em .28em;font:800 clamp(19px,2.2vw,24px)/1.15 var(--body);color:#fff;text-align:center;z-index:2}
+.hook span{display:inline-block;background:#fff;color:#111;border-radius:6px;padding:1px 6px;opacity:0}
+.reel.on .hook span{animation:hookin .28s cubic-bezier(.2,1.5,.4,1) both;animation-delay:var(--d)}
+@keyframes hookin{from{opacity:0;transform:translateY(7px) scale(.85)}to{opacity:1;transform:none}}
+.gq{position:absolute;left:9%;right:16%;bottom:23%;font:italic 600 clamp(14px,1.5vw,17px)/1.25 var(--serif);color:#F3D48C;text-shadow:0 1px 4px rgba(0,0,0,.6);z-index:2;opacity:0}
+.reel.on .gq{animation:up .6s ease 1.4s both}
+@keyframes up{from{transform:translateY(16px);opacity:0}to{opacity:1}}
+.rail{position:absolute;right:9px;bottom:22%;display:flex;flex-direction:column;gap:12px;z-index:2}
+.rail i{width:28px;height:28px;border-radius:50%;background:rgba(0,0,0,.35);display:grid;place-items:center}
+.swipe{position:absolute;left:0;right:0;bottom:5%;text-align:center;font:700 11px var(--body);color:rgba(255,255,255,.9);z-index:2}
+.reel.on .swipe{animation:nudge 1.2s ease-in-out 2s infinite}
+@keyframes nudge{50%{transform:translateY(-5px)}}
+.cliff{position:absolute;left:8%;right:8%;bottom:11%;font:700 12px/1.3 var(--body);color:#fff;text-align:center;z-index:2;opacity:0;text-shadow:0 1px 4px rgba(0,0,0,.6)}
+.reel.on .cliff{animation:up .5s ease 2.4s both}
+.feed-empty{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:8px;padding:24px;text-align:center;color:#C9CEDC;font-size:14px}
+.detail{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.detail h3{margin:0;font-family:var(--display);font-size:24px;line-height:1.15;text-wrap:balance}
+.meta{display:flex;flex-wrap:wrap;gap:8px}
+.meta span{font:500 12px var(--mono);color:var(--muted);background:var(--bg);border:1px solid var(--line);border-radius:99px;padding:3px 9px}
+.dlabel{font:600 11px var(--mono);letter-spacing:.07em;text-transform:uppercase;color:var(--accent)}
+.script{display:flex;flex-direction:column;gap:6px;max-height:300px;overflow-y:auto;padding-right:6px}
+.script p{margin:0;font-size:14px}
+.script .book{font-family:var(--serif);font-style:italic;font-size:17px;line-height:1.35}
+.script .nar{color:var(--muted)}
+.shots{display:grid;gap:6px;margin:0;padding:0;list-style:none}
+.shots li{display:grid;grid-template-columns:44px minmax(0,1fr);gap:8px;font-size:13.5px}
+.shots .t{font:500 12px var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.shots .g{color:var(--accent);font-size:12.5px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.box{border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:flex;flex-direction:column;gap:4px}
+.box p{margin:0;font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:600 12px var(--mono);border:1px solid var(--line);background:var(--panel);color:var(--fg);border-radius:8px;padding:4px 8px;cursor:pointer;font-variant-numeric:tabular-nums}
+.chip[aria-current="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.navrow{display:flex;gap:8px}
+
+/* scene animations (SVG) */
+.stage *{transform-box:fill-box}
+.a-pop{transform-origin:center;animation:pop .45s cubic-bezier(.2,1.6,.4,1) both;animation-delay:var(--d,0s)}
+.a-up{animation:up .5s cubic-bezier(.2,.9,.3,1) both;animation-delay:var(--d,0s)}
+.a-fade{animation:fade .6s ease both;animation-delay:var(--d,0s)}
+.a-grow{transform-origin:bottom;animation:grow 1.2s cubic-bezier(.3,.8,.3,1) both;animation-delay:var(--d,0s)}
+.a-growx{transform-origin:left;animation:growx 1s cubic-bezier(.3,.8,.3,1) both;animation-delay:var(--d,0s)}
+.a-draw{stroke-dasharray:420;stroke-dashoffset:420;animation:draw 1.6s ease forwards;animation-delay:var(--d,0s)}
+.a-drift{animation:drift 6s ease-in-out infinite alternate}
+.a-shim{animation:shim 1.6s ease-in-out infinite alternate}
+.a-pulse{transform-origin:center;animation:pulse 1.4s ease-in-out infinite}
+.a-flick{transform-origin:bottom;animation:flick .22s ease-in-out infinite alternate}
+.a-ride{animation:ride 3s linear both}
+.a-rain{animation:rain .7s linear infinite;animation-delay:var(--d,0s)}
+.a-zoom{transform-origin:center;animation:zoom 3.2s ease-out both}
+.a-punch{transform-origin:center;animation:punch .5s cubic-bezier(.2,1.6,.4,1) both;animation-delay:var(--d,0s)}
+.a-shake{animation:shake .35s ease-in-out 3;animation-delay:var(--d,0s)}
+@keyframes pop{from{transform:scale(0);opacity:0}}
+@keyframes fade{from{opacity:0}}
+@keyframes grow{from{transform:scaleY(0)}}
+@keyframes growx{from{transform:scaleX(0)}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes drift{to{transform:translateX(10px)}}
+@keyframes shim{to{transform:scaleX(1.6);opacity:.5}}
+@keyframes pulse{50%{transform:scale(1.4);opacity:.45}}
+@keyframes flick{to{transform:scaleY(1.25)}}
+@keyframes ride{from{transform:translateX(-50px)}to{transform:translateX(60px)}}
+@keyframes rain{from{transform:translateY(-30px);opacity:0}30%{opacity:.8}to{transform:translateY(40px);opacity:0}}
+@keyframes zoom{from{transform:scale(1.25)}to{transform:scale(1)}}
+@keyframes punch{0%{transform:scale(1.6);opacity:0}100%{transform:scale(1);opacity:1}}
+@keyframes shake{25%{transform:translateX(-2px)}75%{transform:translateX(2px)}}
+@media (prefers-reduced-motion: reduce){.stage *,.cap span,.reel *{animation-duration:.01s!important;animation-iteration-count:1!important;animation-delay:0s!important}.reel .hook span,.reel .gq,.reel .cliff{opacity:1}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">White Nights · Dostoevsky · reel production</div>
+    <h1>White Nights Reel Lab</h1>
+    <p class="lede">Five reel formats for narrating the book, each with its own palette, type, motion and narrator voice. The first phone is a real render from the production pipeline. Below the formats: which voice to use for each one, and the whole book cut into a swipe-through series.</p>
+  </header>
+
+  <section>
+    <div class="sec-h"><h2>Reel formats</h2><p>Silent looping previews (10–12 s) to compare looks. Tap a phone to pause it. Finished reels run 45–75 s with voice-over and music.</p></div>
+    <div class="grid" id="grid"></div>
+    <p class="note">The real render is fully narrated (British storyteller voice) with music ducked under the voice. Press "Sound off" on it to turn the sound on.</p>
+  </section>
+
+  <section>
+    <div class="sec-h"><h2>Voice playbook</h2><p>What narration styles fit each format. Book-narration channels with big views tend to use one of three voice families: a deep, unhurried storyteller for story reels; an intimate close-mic voice for quote and sleep content; and a fast, conversational voice for "POV" and explainer hooks. Pick one as the channel's signature voice and use the others only where a format needs them.</p></div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Format</th><th>Voice</th><th>Pace</th><th>Delivery</th><th>Library voices to audition</th></tr></thead>
+        <tbody>
+          <tr><td><b>Living Painting</b><br>story reels, the series</td><td>Deep, warm storyteller. Male or female, lower register.</td><td class="wpm">145–160 wpm</td><td>Close mic, smiles in the voice, short pause before every hook word. Book lines slower than bridges.</td><td>ElevenLabs: "David – British Storyteller", "Bill L. Oxley", "Frederick Surrey". Or your own voice (best for monetization).</td></tr>
+          <tr><td><b>Gold Line</b><br>single quote</td><td>Intimate, almost whispered.</td><td class="wpm">105–120 wpm</td><td>Long silence before the last phrase; let one piano note land under it.</td><td>"Jonathan – sophisticated, calm narrator", "Amelia" (young British female).</td></tr>
+          <tr><td><b>POV Diary</b><br>relatable hooks</td><td>Young, conversational, a little playful. Indian English works well for an India-first audience.</td><td class="wpm">170–185 wpm</td><td>First word at 0.0 s, no breath intro. Talk to one friend, not an audience.</td><td>Your own voice, or a young conversational library voice. Avoid "announcer" voices here.</td></tr>
+          <tr><td><b>Story in 60</b><br>explainers</td><td>Confident documentary narrator.</td><td class="wpm">160–175 wpm</td><td>Punchy, rising energy into each reveal; numbers and names stressed.</td><td>"David Castlemore" (mystery / storytelling), "Frederick Surrey".</td></tr>
+          <tr><td><b>Sleep Story</b><br>2-hour editions</td><td>Low, slow, breathy.</td><td class="wpm">95–110 wpm</td><td>No sharp consonants or sudden volume; rain bed underneath.</td><td>Meditation-style voices such as "Erin – meditation guide", or a deep calm male.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="sec-h"><h2 style="font-size:20px">Hear the narrators</h2><p>Seven generated voices reading the same hook and opening line, one per playbook style. Generated with the open-source Kokoro model, so they can be used freely. Pick the series voice by ear, then A/B test it.</p></div>
+    <div class="auds" id="auds"></div>
+    <div class="rules">
+      <div class="rule"><h4>Test two voices per format</h4><p>Post the same reel with two narrators (Instagram trial reels or two uploads a week apart). Keep the one with the higher 3-second hold and average watch time.</p></div>
+      <div class="rule"><h4>One signature voice</h4><p>The series narrator is the channel's identity. Viewers binge parts 1→N because the voice carries them; don't switch it mid-book.</p></div>
+      <div class="rule"><h4>AI voice rules</h4><p>AI narration can earn if the reel adds original writing (hooks, bridges, commentary). Turn on YouTube's altered/synthetic content label when a voice sounds like a real person.</p></div>
+      <div class="rule"><h4>Second language later</h4><p>Once a format works, dub the same visuals in Hindi. It reuses every graphic and opens a second audience.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-h"><h2>The whole book as a swipe series</h2><p>Every part opens on a hook in the first two seconds, moves fast (a new shot every 2–6 s), and ends on a cliffhanger that sends viewers to the next part. Scroll inside the phone, or use the part buttons, to see each reel's script, shots and graphics.</p></div>
+    <div class="feed-wrap">
+      <div class="feed-phone"><div class="phone"><div class="screen" id="feedScreen">
+        <div class="feed" id="feed" tabindex="0" aria-label="White Nights reel series, scroll for the next part"></div>
+      </div></div></div>
+      <div class="detail" id="detail" aria-live="polite"></div>
+    </div>
+    <div class="navrow"><button class="btn" id="prevBtn" type="button">↑ Previous part</button><button class="btn" id="nextBtn" type="button">Next part ↓</button></div>
+    <div class="chips" id="chips"></div>
+  </section>
+</div>
+
+<script>
+const F=(t,x,y,o={})=>`<text x="${x}" y="${y}" text-anchor="${o.a||'middle'}" font-family="${o.f||'Inter,sans-serif'}" font-weight="${o.w||800}" font-size="${o.s||16}" fill="${o.c||'#fff'}" ${o.it?'font-style="italic"':''} class="${o.cl||''}" style="--d:${o.d||0}s">${t}</text>`;
+const SERIF='Cormorant Garamond,Georgia,serif', MONO='JetBrains Mono,monospace', HAND='Caveat,cursive';
+let gid=0;
+function rnd(seed){let s=seed;return()=>{s=(s*9301+49297)%233280;return s/233280;};}
+function skyline(y,col,seed=3,lit='#F3C56B'){const r=rnd(seed);let s='',x=-4;while(x<184){const w=10+r()*16,h=18+r()*34;s+=`<rect x="${x.toFixed(1)}" y="${(y-h).toFixed(1)}" width="${w.toFixed(1)}" height="${h.toFixed(1)}" fill="${col}"/>`;for(let k=0;k<3;k++){if(r()<.45)s+=`<rect x="${(x+2+r()*(w-5)).toFixed(1)}" y="${(y-h+4+r()*(h-8)).toFixed(1)}" width="2" height="3" fill="${lit}" opacity="${(.6+r()*.4).toFixed(2)}"/>`;}x+=w;}
+  s+=`<rect x="104" y="${y-58}" width="26" height="58" fill="${col}"/><path d="M106 ${y-58}a11 11 0 0 1 22 0z" fill="#C79A3E"/><rect x="116" y="${y-73}" width="2" height="6" fill="#C79A3E"/>`;
+  s+=`<rect x="34" y="${y-44}" width="12" height="44" fill="${col}"/><path d="M38 ${y-44}l2-40l2 40z" fill="#D6A94B"/>`;return s;}
+function night(top='#060B22',bot='#2B4682'){const id='g'+(gid++);return `<defs><linearGradient id="${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${top}"/><stop offset="1" stop-color="${bot}"/></linearGradient><radialGradient id="${id}l"><stop offset="0" stop-color="#FFD58A" stop-opacity=".9"/><stop offset="1" stop-color="#FFD58A" stop-opacity="0"/></radialGradient></defs><rect width="180" height="320" fill="url(#${id})"/>`+stars()+`<circle cx="146" cy="44" r="10" fill="#F6EEDA"/><circle cx="151" cy="41" r="9" fill="${top}"/>`;}
+function stars(){const r=rnd(7);let s='';for(let i=0;i<26;i++)s+=`<circle cx="${(r()*180).toFixed(1)}" cy="${(r()*120).toFixed(1)}" r="${(.4+r()*.8).toFixed(2)}" fill="#E9EEFF" ${i%4===0?'class="a-pulse"':''}/>`;return s;}
+function canal(y,refl='#F3C56B'){let s=`<rect x="0" y="${y}" width="180" height="${320-y}" fill="#0A1230"/><rect x="0" y="${y}" width="180" height="3" fill="#1C2647"/>`;for(let i=0;i<7;i++){const x=10+i*26;s+=`<circle cx="${x}" cy="${y-16}" r="1.8" fill="#FFE1A0"/><line x1="${x}" y1="${y-14}" x2="${x}" y2="${y}" stroke="#05070F"/><rect x="${x-1.2}" y="${y+6}" width="2.4" height="${20+i%3*8}" fill="${refl}" opacity=".45" class="a-shim" style="animation-delay:${i*.2}s"/>`;}
+  for(let i=0;i<6;i++)s+=`<rect x="${(i*37)%170}" y="${y+40+i*14}" width="${18+i*3}" height="1" fill="#3A4C86" class="a-drift" style="animation-delay:${i*.4}s"/>`;return s;}
+function man(x,y,s=1,c='#03040A'){return `<g transform="translate(${x} ${y}) scale(${s})" fill="${c}"><rect x="-4" y="-62" width="8" height="10"/><rect x="-7" y="-53" width="14" height="2"/><circle cx="0" cy="-47" r="5"/><path d="M-9 -42h18l3 30h-24z"/><path d="M-4 -12l-3 12h3l2-12zM4 -12l3 12h-3l-2-12z"/></g>`;}
+function woman(x,y,s=1){return `<g transform="translate(${x} ${y}) scale(${s})"><ellipse cx="2" cy="-52" rx="9" ry="3" fill="#E0B13F"/><ellipse cx="2" cy="-55" rx="5" ry="4" fill="#E0B13F"/><circle cx="2" cy="-48" r="4.5" fill="#03040A"/><path d="M-6 -43h15l3 14h-20z" fill="#03040A"/><path d="M-6 -30h16l6 30h-28z" fill="#0B0C14"/></g>`;}
+function railing(y){let s=`<rect x="0" y="${y}" width="180" height="${320-y}" fill="#05070F"/><rect x="0" y="${y-22}" width="180" height="3" fill="#05070F"/>`;for(let x=4;x<180;x+=14)s+=`<rect x="${x}" y="${y-22}" width="2" height="22" fill="#05070F"/><circle cx="${x+7}" cy="${y-11}" r="5" fill="none" stroke="#05070F" stroke-width="1.6"/>`;return s;}
+function moonTrack(n,light){const c=light?'#141414':'#E2B45C';return `<circle cx="160" cy="26" r="8" fill="none" stroke="${c}" stroke-width="1.3"/><path d="M160 18a8 8 0 0 1 0 16a${8-n*2} 8 0 0 0 0-16z" fill="${c}"/>${F('NIGHT '+n+'/4',146,29,{f:MONO,w:500,s:6,c:light?'#141414':'#F3E7CF',a:'end'})}`;}
+
+const formats=[
+{key:'A',name:'Living Painting',sub:'The main series format',cap:{style:'plain serif',fg:'#F6EEDA'},voice:'Deep warm storyteller · 145–160 wpm',
+ note:'Night-blue St Petersburg, gold lamps, slow camera push, the Dreamer in his top hat. Memories switch to amber.',real:'reel_living_painting.mp4'},
+{key:'B',name:'Gold Line',sub:'One quote, one screenshot',cap:{style:'plain serif',fg:'#E9C46A'},voice:'Intimate, near-whisper · 105–120 wpm',
+ note:'Black screen, gold serif type that builds word by word, a single rule that draws itself. Made to be saved and sent.',
+ scenes:[
+ {dur:2800,cap:'My God, a whole moment of happiness!',svg:`<rect width="180" height="320" fill="#09090C"/><g class="a-zoom">${F('“My God,',90,120,{f:SERIF,w:700,s:22,c:'#E9C46A',it:1,cl:'a-up'})}${F('a whole moment',90,148,{f:SERIF,w:700,s:22,c:'#F6EEDA',it:1,cl:'a-up',d:.35})}${F('of happiness!',90,176,{f:SERIF,w:700,s:22,c:'#F6EEDA',it:1,cl:'a-up',d:.7})}</g><path d="M60 196h60" stroke="#E9C46A" stroke-width="1" class="a-draw" style="--d:1s"/>`},
+ {dur:3000,cap:'Is that too little for a whole life?',svg:`<rect width="180" height="320" fill="#09090C"/>${F('Is that too little',90,124,{f:SERIF,w:700,s:21,c:'#F6EEDA',it:1,cl:'a-up'})}${F('for the whole of',90,150,{f:SERIF,w:700,s:21,c:'#F6EEDA',it:1,cl:'a-up',d:.35})}${F('a man’s life?”',90,182,{f:SERIF,w:700,s:27,c:'#E9C46A',it:1,cl:'a-punch',d:1})}${F('DOSTOEVSKY · WHITE NIGHTS · 1848',90,214,{f:MONO,w:500,s:6,c:'#8F8A7A',cl:'a-fade',d:1.5})}`},
+ {dur:2800,cap:'Send this to someone you miss.',svg:`<rect width="180" height="320" fill="#09090C"/><g class="a-pop"><path d="M76 108h28v40l-14-10-14 10z" fill="none" stroke="#E9C46A" stroke-width="2.5"/></g>${F('Save it.',90,182,{f:SERIF,w:700,s:24,c:'#F6EEDA',it:1,cl:'a-up',d:.3})}${F('Send it.',90,208,{f:SERIF,w:700,s:24,c:'#E9C46A',it:1,cl:'a-up',d:.6})}`}
+ ]},
+{key:'C',name:'POV Diary',sub:'Relatable hooks for Gen Z',light:true,cap:{style:'pill',bg:'#141414',fg:'#fff'},voice:'Young, conversational · 170–185 wpm',
+ note:'Ruled notebook paper, marker doodles, a handwritten thought bubble, a big stamp. The hook is a "POV" about the viewer, the payoff is a real line from the book.',
+ scenes:[
+ {dur:2600,cap:'POV: a book from 1848 describes you',svg:`<rect width="180" height="320" fill="#FBF8F1"/><g stroke="#D7E1F2" stroke-width="1">${Array.from({length:14},(_,i)=>`<path d="M0 ${60+i*18}h180"/>`).join('')}</g><path d="M22 0v320" stroke="#F2B8B8"/>${F('POV:',90,70,{f:HAND,w:700,s:30,c:'#141414',cl:'a-punch'})}${F('it’s 2 AM and',90,98,{f:HAND,w:700,s:22,c:'#141414',cl:'a-up',d:.3})}${F('you’re still awake',90,120,{f:HAND,w:700,s:22,c:'#141414',cl:'a-up',d:.5})}<g class="a-up" style="--d:.7s"><rect x="40" y="170" width="100" height="34" rx="6" fill="#B9C7E8"/><rect x="44" y="160" width="28" height="16" rx="6" fill="#fff" stroke="#141414"/><circle cx="66" cy="164" r="8" fill="#FBF8F1" stroke="#141414" stroke-width="2"/></g>`},
+ {dur:3200,cap:'“I am a dreamer; I have so little real life”',svg:`<rect width="180" height="320" fill="#FBF8F1"/><g stroke="#D7E1F2" stroke-width="1">${Array.from({length:14},(_,i)=>`<path d="M0 ${60+i*18}h180"/>`).join('')}</g><path d="M22 0v320" stroke="#F2B8B8"/><g class="a-pop"><ellipse cx="96" cy="104" rx="66" ry="40" fill="#fff" stroke="#141414" stroke-width="2.5"/><circle cx="52" cy="152" r="6" fill="#fff" stroke="#141414" stroke-width="2"/><circle cx="44" cy="166" r="3.5" fill="#fff" stroke="#141414" stroke-width="2"/></g>${F('“I am a dreamer;',96,98,{f:HAND,w:700,s:18,c:'#2A3F8F',cl:'a-fade',d:.4})}${F('I have so little',96,116,{f:HAND,w:700,s:18,c:'#2A3F8F',cl:'a-fade',d:.8})}${F('real life”',96,134,{f:HAND,w:700,s:18,c:'#2A3F8F',cl:'a-fade',d:1.2})}<g class="a-up" style="--d:.2s"><circle cx="40" cy="200" r="10" fill="#FBF8F1" stroke="#141414" stroke-width="2.5"/><path d="M40 210v28M40 238l-9 16M40 238l9 16M40 218l-11 9M40 218l11 -6" stroke="#141414" stroke-width="2.5" fill="none" stroke-linecap="round"/></g>`},
+ {dur:2800,cap:'Comment the book that called you out',svg:`<rect width="180" height="320" fill="#FBF8F1"/><g stroke="#D7E1F2" stroke-width="1">${Array.from({length:14},(_,i)=>`<path d="M0 ${60+i*18}h180"/>`).join('')}</g><g class="a-punch"><rect x="34" y="92" width="112" height="56" rx="6" fill="none" stroke="#C8322B" stroke-width="3" transform="rotate(-6 90 120)"/>${F('STILL',90,116,{f:'Inter,sans-serif',w:800,s:18,c:'#C8322B'})}${F('ACCURATE',90,138,{f:'Inter,sans-serif',w:800,s:18,c:'#C8322B'})}</g>${F('1848 → 2026',90,186,{f:MONO,w:500,s:11,c:'#141414',cl:'a-fade',d:.5})}`}
+ ]},
+{key:'D',name:'Story in 60',sub:'Fast explainers that sell the series',cap:{style:'pill',bg:'#E2B45C',fg:'#14161C'},voice:'Confident documentary · 160–175 wpm',
+ note:'Parchment map of St Petersburg, a canal that draws itself, character cards that slam in, a four-night timeline. Ends by pointing to Part 1.',
+ scenes:[
+ {dur:2800,cap:'4 nights. 2 strangers. 1 bridge.',svg:`<rect width="180" height="320" fill="#EBDDBE"/><g stroke="#C9B48A" stroke-width=".8">${Array.from({length:9},(_,i)=>`<path d="M${i*22} 0v320M0 ${i*40}h180"/>`).join('')}</g><path d="M-6 230 C 40 200, 60 250, 100 214 S 160 160, 190 190" fill="none" stroke="#3E6FA8" stroke-width="7" stroke-linecap="round" class="a-draw"/>${F('FONTANKA',120,178,{f:MONO,w:500,s:7,c:'#3E6FA8',cl:'a-fade',d:1})}<g class="a-pop" style="--d:1.2s"><circle cx="100" cy="214" r="9" fill="#C8322B" class="a-pulse"/><circle cx="100" cy="214" r="4" fill="#fff"/></g>${F('4',36,86,{f:'Bricolage Grotesque,sans-serif',w:800,s:44,c:'#14161C',cl:'a-punch'})}${F('NIGHTS',36,100,{f:MONO,w:500,s:8,c:'#14161C',cl:'a-fade',d:.2})}${F('2',90,86,{f:'Bricolage Grotesque,sans-serif',w:800,s:44,c:'#14161C',cl:'a-punch',d:.3})}${F('STRANGERS',90,100,{f:MONO,w:500,s:8,c:'#14161C',cl:'a-fade',d:.5})}${F('1',144,86,{f:'Bricolage Grotesque,sans-serif',w:800,s:44,c:'#C8322B',cl:'a-punch',d:.6})}${F('BRIDGE',144,100,{f:MONO,w:500,s:8,c:'#14161C',cl:'a-fade',d:.8})}`},
+ {dur:3000,cap:'He talks to houses. She’s pinned to her grandmother.',svg:`<rect width="180" height="320" fill="#EBDDBE"/><g class="a-punch"><rect x="12" y="70" width="74" height="120" rx="8" fill="#14161C"/>${man(49,150,1.1,'#E9DFC6')}${F('THE DREAMER',49,170,{f:MONO,w:500,s:7,c:'#E2B45C'})}${F('26 · no friends',49,182,{f:'Inter,sans-serif',w:600,s:6.5,c:'#E9DFC6'})}</g><g class="a-punch" style="--d:.45s"><rect x="94" y="70" width="74" height="120" rx="8" fill="#14161C"/>${woman(129,150,1.1)}${F('NASTENKA',131,170,{f:MONO,w:500,s:7,c:'#E2B45C'})}${F('17 · waiting',131,182,{f:'Inter,sans-serif',w:600,s:6.5,c:'#E9DFC6'})}</g>${F('VS',90,214,{f:'Bricolage Grotesque,sans-serif',w:800,s:18,c:'#C8322B',cl:'a-pop',d:.9})}`},
+ {dur:3000,cap:'Night 4 changes everything. Part 1 is up.',svg:`<rect width="180" height="320" fill="#EBDDBE"/><path d="M26 150h128" stroke="#14161C" stroke-width="2"/><path d="M26 150h128" stroke="#C8322B" stroke-width="3" class="a-growx" style="--d:.2s"/>${[0,1,2,3].map(i=>`<g class="a-pop" style="--d:${.2+i*.3}s"><circle cx="${26+i*42.7}" cy="150" r="9" fill="${i===3?'#C8322B':'#14161C'}"/>${F(i+1,26+i*42.7,154,{w:800,s:10,c:'#fff'})}</g>`).join('')}${F('?',154,120,{f:'Bricolage Grotesque,sans-serif',w:800,s:34,c:'#C8322B',cl:'a-punch a-shake',d:1.4})}${F('NIGHT',90,190,{f:MONO,w:500,s:8,c:'#14161C'})}`}
+ ]},
+{key:'E',name:'Sleep Story',sub:'Long editions, not the feed',cap:{style:'plain serif',fg:'#C9D3EE'},voice:'Low, slow, breathy · 95–110 wpm',
+ note:'Near-black blue, rain on the glass, one candle, no cuts faster than 8 s. Teaser reels for this format point to the 2-hour full-book video.',
+ scenes:[
+ {dur:3400,cap:'Close your eyes.',svg:`<rect width="180" height="320" fill="#070A16"/><rect x="34" y="60" width="112" height="150" fill="#101833" stroke="#1E2440" stroke-width="4"/><path d="M90 60v150M34 135h112" stroke="#1E2440" stroke-width="3"/>${Array.from({length:18},(_,i)=>`<rect x="${40+(i*29)%100}" y="${70+(i*37)%120}" width="1" height="9" fill="#7E8FC6" class="a-rain" style="--d:${(i*.13).toFixed(2)}s"/>`).join('')}<rect x="120" y="214" width="6" height="18" fill="#E9DFC6"/><path d="M123 202q4 6 0 12q-4-6 0-12z" fill="#FFC36B" class="a-flick"/><circle cx="123" cy="208" r="22" fill="#FFB866" opacity=".12"/>`},
+ {dur:3600,cap:'It was a wonderful night, dear reader…',svg:`${night('#04060F','#141D3D')}${skyline(220,'#0B1128',5)}${canal(220)}<rect width="180" height="320" fill="#04060F" opacity=".35"/>`},
+ {dur:3200,cap:'The full book · 2 h 30 m · tonight',svg:`<rect width="180" height="320" fill="#070A16"/>${F('WHITE NIGHTS',90,120,{f:SERIF,w:700,s:20,c:'#C9D3EE',cl:'a-fade'})}${F('the complete story',90,140,{f:SERIF,w:600,s:13,c:'#7E8FC6',it:1,cl:'a-fade',d:.4})}<g class="a-fade" style="--d:.8s">${Array.from({length:22},(_,i)=>`<rect x="${35+i*5}" y="${170-(4+Math.abs(Math.sin(i*.8))*10)}" width="2.5" height="${8+Math.abs(Math.sin(i*.8))*20}" rx="1" fill="#3E4F8C"/>`).join('')}</g>${F('2:30:00',90,214,{f:MONO,w:500,s:10,c:'#7E8FC6',cl:'a-fade',d:1})}`}
+ ]}
+];
+
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const mic=`<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>`;
+function makePlayer(f){
+  const card=document.createElement('article');card.className='card';
+  const isReal=!!f.real;
+  card.innerHTML=`<div class="phone"><div class="screen ${f.light?'light':''}" tabindex="0" role="button" aria-label="${f.name} sample, tap to pause">
+    ${isReal?`<video src="${f.real}" muted loop playsinline autoplay preload="metadata"></video><span class="real">REAL RENDER</span>`:`<svg class="stage" viewBox="0 0 180 320" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"></svg>
+    <div class="bar">${f.scenes.map(()=>'<i><b></b></i>').join('')}</div>
+    <div class="cap ${f.cap.style}" style="--capbg:${f.cap.bg||'transparent'};--capfg:${f.cap.fg}"></div>`}</div></div>
+    <div class="ctrl"><span class="tag">Format ${f.key}</span><button type="button" id="btn-${f.key}">${isReal?'Sound off':'Pause'}</button></div>
+    <h3>${f.name}</h3><p><b>${f.sub}.</b> ${f.note}</p><div class="voice">${mic}<span><b>Voice:</b> ${f.voice}</span></div>`;
+  const btn=card.querySelector('button'), screen=card.querySelector('.screen');
+  if(isReal){
+    const v=card.querySelector('video');
+    const toggle=()=>{v.muted=!v.muted; if(v.paused) v.play().catch(()=>{}); btn.textContent=v.muted?'Sound off':'Sound on';};
+    btn.addEventListener('click',toggle);
+    screen.addEventListener('click',()=>{ if(v.paused){v.play().catch(()=>{});} else v.pause(); });
+    screen.addEventListener('keydown',e=>{if(e.key===' '||e.key==='Enter'){e.preventDefault(); v.paused?v.play().catch(()=>{}):v.pause();}});
+    return card;
+  }
+  const stage=card.querySelector('svg'), cap=card.querySelector('.cap'), bars=[...card.querySelectorAll('.bar b')];
+  let i=0,timer=null,paused=false,start=0,remain=0;
+  function show(n){i=n;const s=f.scenes[i];stage.innerHTML=s.svg;
+    cap.innerHTML=s.cap.split(' ').map((w,k)=>`<span style="--d:${(.1+k*.12).toFixed(2)}s">${w}</span>`).join('');
+    bars.forEach((b,k)=>{b.style.transition='none';b.style.transform=`scaleX(${k<i?1:0})`;});
+    const cur=bars[i];void cur.offsetWidth;cur.style.transition=`transform ${s.dur}ms linear`;cur.style.transform='scaleX(1)';
+    remain=s.dur;schedule();}
+  function schedule(){start=performance.now();clearTimeout(timer);timer=setTimeout(()=>show((i+1)%f.scenes.length),remain);}
+  function toggle(){paused=!paused;btn.textContent=paused?'Play':'Pause';
+    card.querySelectorAll('.stage *, .cap span').forEach(e=>e.style.animationPlayState=paused?'paused':'');
+    const cur=bars[i];
+    if(paused){clearTimeout(timer);remain-=performance.now()-start;const m=getComputedStyle(cur).transform;cur.style.transition='none';cur.style.transform=m;}
+    else{cur.style.transition=`transform ${remain}ms linear`;cur.style.transform='scaleX(1)';schedule();}}
+  btn.addEventListener('click',toggle);screen.addEventListener('click',toggle);
+  screen.addEventListener('keydown',e=>{if(e.key===' '||e.key==='Enter'){e.preventDefault();toggle();}});
+  show(0);return card;
+}
+const grid=document.getElementById('grid');
+formats.forEach(f=>grid.appendChild(makePlayer(f)));
+
+const VOICES=[
+ ['storyteller_uk_male','British storyteller','Series voice · pick','Male, deep and unhurried. Kokoro bm_george, 0.93× speed.',true],
+ ['storyteller_female','Warm storyteller','Series voice · alt','Female, warm and clear. Kokoro af_heart, 0.95×.'],
+ ['deep_male','Deep documentary','Story in 60','Male, low and confident. Kokoro am_onyx, 0.9×.'],
+ ['intimate_female','Intimate close-mic','Gold Line','Female, soft British. Kokoro bf_emma, 0.85×.'],
+ ['pov_young','Young conversational','POV Diary','Female, quick and casual. Kokoro af_bella, 1.12×.'],
+ ['sleep_soft','Soft sleep story','Sleep Story','Female, slow and breathy. Kokoro bf_isabella, 0.8×.'],
+ ['hindi_male','Hindi narrator','Hindi dub','Male, Hindi. Kokoro hm_omega, 0.95×.']];
+document.getElementById('auds').innerHTML=VOICES.map(([f,n,fit,sub,pick])=>`<div class="aud${pick?' pick':''}"><div class="top"><b>${n}</b><span class="fits">${fit}</span></div><span class="sub">${sub}</span><audio controls preload="none" src="voices/${f}.mp3"></audio></div>`).join('');
+document.addEventListener('play',e=>{document.querySelectorAll('audio,video').forEach(m=>{if(m!==e.target&&m.tagName==='AUDIO')m.pause();});},true);
+
+/* ---------------- series feed ---------------- */
+const SECT={
+ 'First Night':{n:1,bg:()=>night()+skyline(214,'#0D1430',3)+canal(214)+man(70,300,1.25)},
+ 'Second Night':{n:2,bg:()=>night('#130A2E','#5A3B8C')+skyline(214,'#22134A',8,'#F7D9FF')+canal(214,'#F2C7FF')+Array.from({length:14},(_,i)=>`<circle cx="${(i*47)%180}" cy="${40+(i*61)%170}" r="${2+i%4}" fill="#F5D7FF" opacity=".5" class="a-pulse" style="animation-delay:${i*.2}s"/>`).join('')+man(56,300,1.2)+woman(122,300,1.2)},
+ "Nastenka's History":{n:2,bg:()=>`<defs><linearGradient id="am${gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3B200E"/><stop offset="1" stop-color="#C98A46"/></linearGradient></defs><rect width="180" height="320" fill="url(#am${gid++})"/><rect x="30" y="120" width="120" height="120" fill="#5A3620"/><rect x="44" y="134" width="40" height="52" fill="#F7CF8A"/><rect x="96" y="134" width="40" height="52" fill="#F7CF8A" opacity=".7"/><circle cx="64" cy="160" r="9" fill="#3B200E"/><path d="M50 186q14-22 28 0z" fill="#3B200E"/><rect x="0" y="240" width="180" height="80" fill="#2A170A"/>`+woman(110,300,1.25)},
+ 'Third Night':{n:3,bg:()=>night('#0B0F1C','#3A4562')+skyline(214,'#121829',4,'#C9C2A8')+canal(214,'#B9B7A8')+Array.from({length:30},(_,i)=>`<rect x="${(i*41)%180}" y="${(i*53)%300}" width="1" height="10" fill="#9DAACB" class="a-rain" style="--d:${(i*.07).toFixed(2)}s"/>`).join('')+railing(286)+woman(116,286,1.1)},
+ 'Fourth Night':{n:4,bg:()=>night('#050816','#1E2F63')+skyline(214,'#0A1028',6)+canal(214)+railing(286)+man(60,286,1.1)+woman(84,286,1.1)+man(160,286,1.0,'#1B1F33')},
+ 'Morning':{n:4,bg:()=>`<defs><linearGradient id="mo${gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2D3557"/><stop offset=".6" stop-color="#C98F7A"/><stop offset="1" stop-color="#F1D3A2"/></linearGradient></defs><rect width="180" height="320" fill="url(#mo${gid++})"/><circle cx="90" cy="214" r="34" fill="#FFE3A6" opacity=".9"/>`+skyline(232,'#3A3144',2,'#FFE3A6')+`<rect x="0" y="232" width="180" height="88" fill="#4A3A48"/><g class="a-up" style="--d:1s"><rect x="56" y="250" width="68" height="46" rx="2" fill="#F6EEDA" transform="rotate(-4 90 273)"/><path d="M62 262h50M62 270h44M62 278h48" stroke="#8C7B66" stroke-width="1.2" transform="rotate(-4 90 273)"/></g>`}
+};
+const icon={heart:'<svg width="14" height="14" viewBox="0 0 24 24" fill="#fff"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6C19 16.5 12 21 12 21z"/></svg>',comment:'<svg width="14" height="14" viewBox="0 0 24 24" fill="#fff"><path d="M4 4h16v12H8l-4 4z"/></svg>',save:'<svg width="14" height="14" viewBox="0 0 24 24" fill="#fff"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',share:'<svg width="14" height="14" viewBox="0 0 24 24" fill="#fff"><path d="M3 12l18-8-6 18-3-7z"/></svg>'};
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let REELS=[],cur=0;
+const feed=document.getElementById('feed'),detail=document.getElementById('detail'),chips=document.getElementById('chips');
+function renderDetail(r){
+  const total=REELS.length;
+  detail.innerHTML=`<div class="dlabel">Part ${r.part} of ${total} · ${esc(r.section)}</div>
+  <h3>${esc(r.title)}</h3>
+  <div class="meta"><span>${r.duration_sec||60} s</span><span>${(r.shots||[]).length} shots</span><span>book lines ${esc(r.lines||'')}</span></div>
+  <div class="two"><div class="box"><span class="dlabel">Hook · first 2 s</span><p><b>${esc(r.hook_text)}</b></p><p>${esc(r.hook_vo)}</p></div>
+  <div class="box"><span class="dlabel">Cliffhanger</span><p>${esc(r.cliffhanger)}</p></div></div>
+  <div><span class="dlabel">Narration</span><div class="script">${(r.script||[]).map(s=>`<p class="${s.type==='book'?'book':'nar'}">${esc(s.text)}</p>`).join('')}</div></div>
+  <div><span class="dlabel">Shots &amp; graphics</span><ol class="shots">${(r.shots||[]).map((s,k)=>`<li><span class="t">${s.sec}s</span><span>${esc(s.visual)}${s.graphic?`<br><span class="g">${esc(s.graphic)}</span>`:''}</span></li>`).join('')}</ol></div>
+  <div class="two"><div class="box"><span class="dlabel">Gold quote</span><p style="font-family:var(--serif);font-style:italic;font-size:17px">${esc(r.gold_quote)}</p></div>
+  <div class="box"><span class="dlabel">Comment prompt</span><p>${esc(r.engagement)}</p></div></div>`;
+  [...chips.children].forEach((c,k)=>c.setAttribute('aria-current',k===cur?'true':'false'));
+}
+function buildFeed(){
+  const total=REELS.length;
+  feed.innerHTML=REELS.map((r,k)=>{const S=SECT[r.section]||SECT['First Night'];
+    const words=String(r.hook_text||'').split(' ');
+    return `<div class="reel" data-k="${k}"><svg class="stage" viewBox="0 0 180 320" preserveAspectRatio="xMidYMid slice"><g class="zoom" style="transform-origin:center;transform-box:view-box">${S.bg()}</g><rect width="180" height="320" fill="#000" opacity=".18"/></svg><div class="flash"></div>
+    <span class="rp">PART ${r.part}/${total}</span><span class="rsec">Night ${S.n} · ${esc(r.section)}</span>
+    <div class="hook">${words.map((w,j)=>`<span style="--d:${(.1+j*.11).toFixed(2)}s">${esc(w)}</span>`).join('')}</div>
+    <div class="gq">${esc(r.gold_quote)}</div>
+    <div class="rail"><i>${icon.heart}</i><i>${icon.comment}</i><i>${icon.save}</i><i>${icon.share}</i></div>
+    <div class="cliff">${esc(r.cliffhanger)}</div>
+    <div class="swipe">${k<total-1?`Part ${r.part+1} ↑ swipe`:'The end · watch the full book'}</div></div>`;}).join('');
+  chips.innerHTML=REELS.map((r,k)=>`<button type="button" class="chip" data-k="${k}" title="${esc(r.title)}">${String(r.part).padStart(2,'0')}</button>`).join('');
+  const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting&&e.intersectionRatio>.6){const el=e.target;feed.querySelectorAll('.reel.on').forEach(x=>{if(x!==el)x.classList.remove('on');});el.classList.remove('on');void el.offsetWidth;el.classList.add('on');cur=+el.dataset.k;renderDetail(REELS[cur]);}});},{root:feed,threshold:[.6]});
+  feed.querySelectorAll('.reel').forEach(el=>io.observe(el));
+  renderDetail(REELS[0]);
+}
+function go(k){k=Math.max(0,Math.min(REELS.length-1,k));const el=feed.children[k];if(el)feed.scrollTo({top:el.offsetTop,behavior:reduce?'auto':'smooth'});}
+chips.addEventListener('click',e=>{const b=e.target.closest('.chip');if(b)go(+b.dataset.k);});
+document.getElementById('prevBtn').addEventListener('click',()=>go(cur-1));
+document.getElementById('nextBtn').addEventListener('click',()=>go(cur+1));
+feed.addEventListener('keydown',e=>{if(e.key==='ArrowDown'||e.key==='PageDown'){e.preventDefault();go(cur+1);}if(e.key==='ArrowUp'||e.key==='PageUp'){e.preventDefault();go(cur-1);}});
+detail.innerHTML='<div class="dlabel">Series</div><h3>Loading the reel plan…</h3><p class="note">Each part of the book will appear here with its hook, narration, shot list, gold quote and cliffhanger.</p>';
+fetch('reels.json').then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}).then(d=>{REELS=d.reels||[];if(!REELS.length)throw new Error('empty');buildFeed();})
+.catch(()=>{feed.innerHTML='<div class="feed-empty"><b>No reel plan yet</b><span>The part-by-part breakdown of the book appears here once reels.json is published beside this page.</span></div>';detail.innerHTML='<div class="dlabel">Series</div><h3>Reel plan not loaded</h3><p class="note">Publish reels.json next to this page to fill the feed.</p>';});
+</script>
