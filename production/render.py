@@ -1061,12 +1061,16 @@ def make_music(total, segs, fmt, vo_dir):
     while t < total:
         bass, tones = chords[ci % 4]
         pos = int(t * SR)
+        if pos >= n:
+            break
         nb = piano(nfreq(bass), 4.0, 0.55)
         mus[pos:pos + len(nb)] += nb[: n - pos]
         for k in range(int(bar / step)):
             if rng.random() < (0.55 if fmt == "long" else 0.7):
                 tt = t + k * step
                 p = int(tt * SR)
+                if p >= n:
+                    continue
                 nt = piano(nfreq(tones[rng.integers(0, len(tones))]), 2.5, rng.uniform(0.18, 0.32))
                 mus[p:p + len(nt)] += nt[: n - p]
         pad_t = np.arange(int(bar * SR)) / SR
@@ -1076,7 +1080,7 @@ def make_music(total, segs, fmt, vo_dir):
         t += bar
         ci += 1
     for s in segs:
-        if s.get("sting"):
+        if s.get("sting") and int(s["t0"] * SR) < n:
             p = int(s["t0"] * SR)
             for nm in ["A1", "E2", "A2"]:
                 x = piano(nfreq(nm), 5.0, 0.6)
@@ -1099,7 +1103,8 @@ def make_music(total, segs, fmt, vo_dir):
         if path and os.path.exists(path):
             a = read_wav(path)
             p = int((s["t0"] + s.get("lead", 0.35)) * SR)
-            vo[p:p + len(a)] += a[: n - p]
+            if p < n:
+                vo[p:p + len(a)] += a[: n - p]
             has_vo = True
     if has_vo:
         vo = vo / (np.max(np.abs(vo)) + 1e-9) * 0.89
